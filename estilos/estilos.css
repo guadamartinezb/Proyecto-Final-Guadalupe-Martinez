@@ -1,0 +1,676 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200;8..144,400;8..144,1000&display=swap');
+
+head {
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 200;
+    color: rgb(58, 58, 141);
+    text-align: center;
+}
+
+
+body {
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 100;
+    color: rgb(122, 122, 216);
+    text-align: left;
+    background-color: beige;
+}
+
+h4 {
+    color: rgb(97, 165, 165);
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: larger;
+}
+
+
+
+.formulario {
+    color: rgb(122, 122, 216);
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 8px;
+    padding-top: 8px;
+    grid-area: formulario;
+}
+
+.navp {
+    background-color: beige;
+    text-align: end;
+    content: normal;
+    grid-area: menu;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    background-image: linear-gradient(to top, rgb(255, 217, 223), beige);
+}
+
+a {
+    color: rgb(122, 122, 216);
+    font-weight: bold;
+    font-size: x-large;
+    text-align: justify;
+    text-decoration: none;
+    margin: 7px 12px 17px 6px;
+    padding: 10px 12px 10px 65px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+
+.backprincipal {
+    color: rgb(115, 115, 199);
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(203, 203, 230);
+    margin: 0px;
+    font-size: 100px;
+    font-size: 70px;
+    background-image: url("../imagenes/logo.png");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: left;
+    background-attachment: fixed;
+    animation-duration: 4s;
+    animation-name: titulo;
+    animation-iteration-count: initial;
+    animation-delay: 2s
+}
+
+@keyframes titulo {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 2;
+    }
+
+
+}
+
+.novedades {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    background-color: rgb(122, 122, 216);
+    padding-left: 18px;
+    padding-right: 18px;
+    grid-area: novedades;
+}
+
+.carousel-item{
+    width: 50%;
+    margin-right: 5%;
+    margin-left: 20%;
+}
+.textoh5 {
+    color: rgb(122, 122, 216);
+    font-weight: bold;
+    text-align: center;
+    font-size: x-large;
+    margin:0%;
+}
+
+.mapa {
+    color: rgb(122, 122, 216);
+    font-weight: bold;
+    text-align: left;
+    padding-left: 45px;
+    grid-area: mapa;
+
+}
+
+.mapayform {
+    display: grid;
+    grid-template-areas: "titulo1 titulo2"
+        "mapa formulario";
+}
+
+.mapayform h2 {
+    grid-area: titulo1;
+}
+
+.mapayform h4 {
+    grid-area: titulo2;
+}
+
+.mapayform iframe {
+    grid-area: mapa;
+}
+
+.mapayform article {
+    grid-area: formulario;
+
+}
+
+footer {
+    grid-area: footer;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: end;
+}
+
+#back {
+    margin: 0px;
+    background-image: url("../imagenes/perfumesback.jpg");
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    content: 30px 30px 30px 30px;
+
+}
+
+.principal {
+    color: rgb(122, 122, 216);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin: 5px;
+    border: solid 3px rgb(250, 206, 214);
+    width: 250px;
+    height: 370px;
+    display: inline-table;
+    align-items: stretch;
+
+}
+
+.tituloperfumeria {
+    color: rgb(122, 122, 216);
+    font-weight: bold;
+    padding-bottom: 3px;
+    margin: 0px;
+    font-size: 50px;
+    text-align: center;
+    background-image: linear-gradient(to top, rgb(161, 161, 243), rgb(200, 200, 255));
+    animation-duration: 4s;
+    animation-name: titulo;
+    animation-iteration-count: initial;
+    animation-delay: 2s
+}
+
+@keyframes titulo {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 2;
+    }
+
+
+}
+
+
+#mainma {
+    display: grid;
+    grid-template-areas:
+       "menum"
+        "div"
+        "sub"
+        "marcas"
+    ;
+
+    grid-template-columns: 4fr;
+}
+.navp {
+    grid-area: menum;
+}
+.maquillajesback {
+    color: rgb(122, 122, 216);
+    font-weight: bold;
+    text-align: center;
+    background-color: beige;
+    margin: 20px;
+    font-size: 50px;
+    background-image: url("../imagenes/maquillajesback.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    animation-duration: 4s;
+    animation-name: titulo;
+    animation-iteration-count: initial;
+    animation-delay: 2s
+}
+
+@keyframes titulo {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 2;
+    }
+
+
+}
+
+
+.divv {
+    grid-area: div;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    grid-area: div;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.maquillajesc {
+    color: rgb(122, 122, 216);
+    padding-left: 8px;
+    margin: 4px;
+    width: 250px;
+    height: 370px;
+    border: solid 3px beige;
+    display: inline-table;
+    text-align: center;
+    border-radius: 50px;
+
+}
+
+.marcas {
+    grid-area: marcas;
+    content: 60px;
+    padding-top: 3px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 180px;
+    height: 180px;
+    transition: all 2s;
+
+}
+
+.divmarcas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    grid-area: marcas;
+}
+
+.marcasdestacadasm {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(122, 122, 216);
+    grid-area: sub;
+}
+
+.marcas:hover {
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    background-color: rgb(147, 147, 240);
+
+}
+
+
+.productosalud {
+    color: rgb(122, 122, 216);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    mask-repeat: repeat;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin: 5px;
+    border: solid 3px rgb(250, 206, 214);
+    display: inline-table;
+    background-color: beige;
+    height: 250px;
+    border-radius: 15%;
+
+}
+
+.salud {
+    color: rgb(122, 122, 216);
+    font-weight: bold;
+    padding-left: 10px;
+    margin: 20px;
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(203, 203, 230);
+    background-color: linear-gradient(to top, rgb(161, 161, 243), rgb(200, 200, 255));
+    animation-duration: 4s;
+    animation-name: titulo;
+    animation-iteration-count: initial;
+    animation-delay: 2s
+}
+
+@keyframes titulo {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 2;
+    }
+
+
+}
+
+#backcp {
+    margin: 0%;
+    background-image: url("../imagenes/fondocuidadopersonal.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding-top: 3px;
+    border: 15px;
+}
+
+h1.titulocp {
+    font-size: 60px;
+    line-height: 4;
+    font-weight: bold;
+}
+
+article.productoscp {
+    box-sizing: content-box;
+}
+
+.productoscp {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    border: solid 3px pink;
+    color: rgb(122, 122, 216);
+    padding-left: 8px;
+    margin: 4px;
+    width: 250px;
+    height: 370px;
+    display: inline-table;
+    text-align: center;
+    border-radius: 50px;
+
+}
+.navp {
+    grid-area: menu;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    background-image: linear-gradient(to top, rgb(255, 217, 223), beige);
+
+}
+.nav-link  {
+    color: rgb(122, 122, 216);
+    font-weight: bold;
+    font-size: x-large;
+    text-align: justify;
+    text-decoration: none;
+    margin: 7px 12px 17px 6px;
+    padding: 10px 12px 10px 65px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.bg-light {
+    --bs-bg-opacity: none;
+   }
+ a.navbar-brand  {
+       color:rgb(122, 122, 216);
+   }
+   .justify-content-end{ 
+    justify-content: left;
+}
+
+
+/*desktop*/
+@media (min-width:1024px) {
+    .navbar {
+        display: none;
+    }
+    .nav {
+        display: flex;
+    }
+}
+
+
+/*tablet*/
+@media(min-width:481px) and (max-width:1023px) {
+    .backprincipal {
+        color: rgb(122, 122, 216);
+        font-weight: bold;
+        text-align: center;
+        background-color: rgb(203, 203, 230);
+        margin: 0px;
+        font-size: 70px;
+        background-image: url("../imagenes/logo.png");
+        background-repeat: no-repeat;
+        background-size: 100px;
+        background-position: left;
+
+    }
+
+    a {
+        color: rgb(122, 122, 216);
+        font-weight: bold;
+        font-size: x-large;
+        text-align: justify;
+        text-decoration: none;
+        margin: 3px 9px 14px 3px;
+        padding: 10px 12px 10px 30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+
+    .formulario h4 {
+        color: rgb(122, 122, 216);
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding-left: 30px;
+        padding-top: 4px;
+
+    }
+
+    .mapa {
+        color: rgb(122, 122, 216);
+        font-weight: bold;
+        text-align: left;
+        padding-left: 10px;
+
+    }
+
+    .mapayform {
+        display: grid;
+        grid-template-areas: "titulo1""mapa"
+            "titulo2""formulario";
+        justify-content: center;
+    }
+
+    .maquillajesback {
+        margin: 15px;
+
+
+    }
+    h1.titulocp {
+        font-size: 30px;
+    
+    }
+    .navbar {
+        display: none;
+    }
+    .nav {
+        display: flex;
+    }
+   
+}
+
+/*smartphone*/
+@media (max-width:480px) {
+    a {
+        color: rgb(122, 122, 216);
+        font-weight: bold;
+        font-size: large;
+        text-align: justify;
+        text-decoration: none;
+        margin: 3px;
+        padding: 10px;
+
+    }
+
+    .menu {
+        text-align: left;
+        grid-area: menu;
+        display: flex;
+        justify-content: none;
+        width: 30px;
+        height: 50px
+    }
+
+    head {
+        font-weight: 25px;
+        text-align: center;
+    }
+
+
+    body {
+        font-weight: 10px;
+        text-align: center;
+    }
+
+    .formulario {
+        padding-left: 4px;
+        padding-top: 4px;
+        grid-area: formulario;
+
+    }
+
+    .backprincipal {
+        font-size: 50px;
+        background-image: none;
+        height: 100%;
+        background-image: none;
+
+    }
+
+    .novedades {
+        font-size: 30px;
+        grid-area: novedades;
+    }
+
+    .novedades2 {
+        padding: 8px;
+        font-size: 15px;
+        margin: 5px;
+        width: 150px;
+        height: 100px;
+        display: inline-table;
+
+    }
+
+
+    .mapa {
+        text-align: left;
+        width: 100%;
+        padding-left: 7px;
+
+    }
+
+    .mapayform {
+        display: grid;
+        grid-template-areas: "titulo1""mapa"
+            "titulo2""formulario";
+        justify-content: center;
+    }
+
+    .maquillajesback {
+        color: rgb(122, 122, 216);
+        font-weight: bold;
+        text-align: center;
+        background-color: beige;
+        margin: 10px;
+        font-size: 30px;
+        background-image: url("../imagenes/maquillajesback.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+
+    }
+
+    .maquillajesc {
+        color: rgb(122, 122, 216);
+        padding-left: 6px;
+        margin: 4px;
+        width: 250px;
+        height: 300px;
+        border: solid 3px beige;
+        display: inline-table;
+        text-align: center;
+        border-radius: 50px;
+
+    }
+
+    .divv {
+        padding-top: 4px;
+        padding-bottom: 4px;
+        grid-area: div;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: space-around;
+
+    }
+    h1.titulocp {
+        font-size: 20px;
+    
+    }
+    .navbar {
+        display: flex;
+    }
+    .nav {
+        display: none;
+    }
+    .navbar-brand {
+        display: none;
+        color: rgb(122, 122, 216);
+        font-size: 10px;
+    }
+    
+}

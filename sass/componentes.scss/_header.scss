@@ -1,0 +1,157 @@
+.header {
+    .backprincipal {
+        color: $letrasprincipales;
+        font-weight: bold;
+        text-align: center;
+        background-color: $back;
+        margin: 0px;
+        font-size: 100px;
+        font-size: 70px;
+        background-image: url("../imagenes/logo.png");
+        background-repeat: no-repeat;
+        background-size: 100px;
+        background-position: left;
+        background-attachment: fixed;
+        animation-duration: 4s;
+        animation-name: titulo;
+        animation-iteration-count: initial;
+        animation-delay: 2s
+    }
+
+    @keyframes titulo {
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 1;
+        }
+
+        100% {
+            opacity: 2;
+        }
+
+
+    }
+
+    #back {
+        margin: 0px;
+        background-image: url("../imagenes/perfumesback.jpg");
+        height: 50vh;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        content: 30px 30px 30px 30px;
+
+        .tituloperfumeria {
+            font-weight: bold;
+            padding-bottom: 3px;
+            margin: 0px;
+            font-size: 50px;
+            text-align: center;
+            background-image: linear-gradient(to top, rgb(161, 161, 243), rgb(200, 200, 255));
+            animation-duration: 4s;
+            animation-name: titulo;
+            animation-iteration-count: initial;
+            animation-delay: 2s
+        }
+
+        @keyframes titulo {
+            0% {
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 2;
+            }
+        }
+
+    }
+
+    .maquillajesback {
+        color: $letrasprincipales;
+        font-weight: bold;
+        text-align: center;
+        background-color: $back;
+        margin: 20px;
+        font-size: 50px;
+        background-image: url("../imagenes/maquillajesback.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        animation-duration: 4s;
+        animation-name: titulo;
+        animation-iteration-count: initial;
+        animation-delay: 2s
+    }
+
+    @keyframes titulo {
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 1;
+        }
+
+        100% {
+            opacity: 2;
+        }
+
+
+    }
+
+    .salud {
+        color: $letrasprincipales;
+        font-weight: bold;
+        padding-left: 10px;
+        margin: 20px;
+        font-size: 50px;
+        text-align: center;
+        background-color: $back;
+        background-color: $gradientefondo;
+        animation-duration: 4s;
+        animation-name: titulo;
+        animation-iteration-count: initial;
+        animation-delay: 2s
+    }
+
+    @keyframes titulo {
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 1;
+        }
+
+        100% {
+            opacity: 2;
+        }
+
+
+    }
+
+    #backcp {
+        margin: 0%;
+        background-image: url("../imagenes/fondocuidadopersonal.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        padding-top: 3px;
+        border: 15px;
+
+        h1.titulocp {
+            font-size: 60px;
+            line-height: 4;
+            font-weight: bold;
+        }
+    }
+}

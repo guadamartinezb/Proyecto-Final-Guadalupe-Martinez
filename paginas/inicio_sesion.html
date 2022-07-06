@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="title"> Farmacia G&A-Inicio Sesion </title>
+    <link rel="shortcut icon" href="faviconf.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/estilos1.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="backprincipal"> Farmacia G&A </h1>
+    </header>
+    <main id="grid">
+        <main id="grid">
+            <ul class="nav justify-content-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./paginas/maquillajes.html">Maquillajes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./paginas/cuidadopersonal.html">Cuidado Personal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./paginas/perfumeria.html">Perfumeria</a>
+              </li>
+            </ul>
+        <!--Navegador para smartphone-->
+        <nav class="navbar navbar-light bg-light fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Farmacia G&A </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Farmacia G&A</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./paginas/perfumeria.html">Perfumeria</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./paginas/maquillajes.html">Maquillajes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./paginas/cuidadopersonal.html">Cuidado Personal</a>
+                            </li>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="inicios">
+            <!--formulario -->
+            <h4 class="tiutloformulario "> Registrate para recibir todas nuestras novedades</h4>
+            <div class="formulario">
+                <form class="row g-3 needs-validation" novalidate>
+                    <div class="col-md-3 position-relative">
+                        <label for="validationTooltip01" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="validationTooltip01" value="Nombre" required>
+                        <div class="valid-tooltip">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-3 position-relative">
+                        <label for="validationTooltip02" class="form-label"> Apellido</label>
+                        <input type="text" class="form-control" id="validationTooltip02" value="Apellido" required>
+                        <div class="valid-tooltip">
+                            Looks good!
+                        </div>
+                    </div>
+                    <div class="col-md-3 position-relative">
+                        <label for="validationTooltipUsername" class="form-label">Mail</label>
+                        <div class="input-group has-validation">
+                            <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                            <input type="text" class="form-control" id="validationTooltipUsername"
+                                aria-describedby="validationTooltipUsernamePrepend" required>
+                            <div class="invalid-tooltip"> Por favor elija un usuario correcto.
+                            </div>
+                        </div>
+                        <div class="mb-3 row">
+                            <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
+                            <div class="col-sm-10">
+                              <input type="password" class="form-control" id="inputPassword">
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-md-6 position-relative">
+                        <label for="validationTooltip03" class="form-label"> Comentario</label>
+                        <input type="text" class="form-control" id="validationTooltip03" required>
+                    </div>
+
+                    <div class="col-12">
+                        <button class="btn btn-primary" type="submit">Enviar</button>
+                    </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <i class="fa-brands fa-whatsapp fa-2xl"></i>
+        <i class="fa-brands fa-facebook fa-2xl"></i>
+        <i class="fa-brands fa-instagram fa-2xl"></i>
+        <i class="fa-brands fa-pinterest fa-2xl"></i>
+        <p class="c">&copy; Copyright 2022  </p>
+        
+
+    </footer>
+    <script src="https://kit.fontawesome.com/da27dc4878.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+    
+</body>
+
+</html>

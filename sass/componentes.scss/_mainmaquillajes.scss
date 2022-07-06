@@ -1,0 +1,80 @@
+body {
+    header{
+        .maquillajesback {
+            @extend .titulocp;
+        }
+     }
+}
+
+#mainma {
+    
+    .nav-link {
+        color: $letrasprincipales;
+        font-weight: bold;
+        font-size: x-large;
+        text-align: justify;
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around
+    }
+
+
+    .divv {
+        .maquillajesc {
+            color: $letrasprincipales;
+            font-family: Verdana, Tahoma, sans-serif;
+            padding-left: 8px;
+            margin: 4px;
+            display: inline-table;
+            text-align: center;
+            justify-content: space-between;
+        }
+
+        @mixin card ($width, $height) {
+            height: $height;
+            width: $width;
+        }
+
+        .maquillajesc {
+            @include card(250px, 370px);
+        }
+        .productos{
+            font-size: 25px;
+            color: $letrasprincipales; 
+        }
+
+    }
+
+    .marcasdestacadasm {
+        color: $blanco;
+        text-align: center;
+        font-size: 30px;
+        background-color: rgb(122, 122, 216);
+        grid-area: sub;
+
+    }
+
+    .divmarcas {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        grid-area: marcas;
+        padding-bottom: 40px;
+
+        .marcas {
+            padding-top: 3px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 180px;
+            height: 180px;
+
+        }
+
+        &:hover {}
+
+    }
+}

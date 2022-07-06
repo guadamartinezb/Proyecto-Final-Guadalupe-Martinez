@@ -1,0 +1,22 @@
+body {
+    header {
+        .tituloperfumeria {
+            @extend .titulocp;
+        }
+    }
+
+}
+
+.main {
+
+    div {
+        .principal {
+            @extend .maquillajesc;
+            @include card(250px, 370px);
+
+        }
+        .productos1 {
+            @extend  .productos
+        }
+    }
+}

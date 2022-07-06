@@ -1,0 +1,95 @@
+body {
+    header {
+        h1{
+            font-size: 15px;
+            margin-top: 8px;
+            background-color: $back;
+            padding-left: 7px;
+        }
+        h2{
+            font-size: 15px;
+            margin-top: 8px;
+            background-color: $back;
+            padding-right: 7px;
+            display: flex;
+            text-align: right;
+            justify-content: end;
+        }
+        
+    
+    }
+}
+
+main {
+    #grid {
+        .logo {
+            max-width: 100%;
+            background-image: url("/Farmacia/imagenes/titulofarmacia.png");
+            background-repeat: no-repeat;
+            background-size: 100px;
+            background-color: white;
+            margin-top: 30px;
+            margin-bottom: 40px;
+        }
+
+        .nav .nav-link .nav-item {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            color: $letrasprincipales;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: x-large;
+            font-weight: bold;
+            text-decoration: none;
+            flex-wrap: nowrap;
+        }
+
+        div .input-group {
+            align-items: center;
+            padding-left: 40px;
+        }
+
+        .offcanvas-title {
+            font-size: large;
+
+        }
+
+        .w-100 {
+            width: 80% !important;
+            align-items: center;
+            justify-content: center;
+            padding-left: 50px;
+
+        }
+
+        .news {
+            font-size: 40px;
+        }
+
+        .newsl {
+            font-size: 30px;
+        }
+
+        .iconos {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .fa-brands {
+            display: flex;
+            font-weight: 400px;
+            align-items: center;
+            justify-content: space-evenly;
+            font-size: xx-large;
+            padding-left: 10px;
+            padding-top: 20px;
+            width: 50px;
+            vertical-align: none;
+            color: rgb(122, 122, 216);
+        }
+
+
+    }
+}

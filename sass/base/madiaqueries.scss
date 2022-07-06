@@ -1,0 +1,100 @@
+/*desktop*/
+@media (min-width:1024px) {
+    main {
+    
+    }
+
+}
+
+
+/*tablet*/
+@media(min-width:481px) and (max-width:1023px) {
+    h1 .backprincipal {
+        display: flex;
+        font-weight: bold;
+        margin-top: 4px;
+        color: $letrasprincipales;
+        text-align: center;
+        background-color: $back ;
+        margin-left: 6px;
+        font-size: 55px;
+    }
+
+
+    main {
+
+        .maquillajesback {
+            margin: 15px;
+        }
+            
+        .maquillajesc {
+            align-items: center;
+        }
+
+        .offcanvas-title {
+            display: flex;
+        }
+        .carousel-inner{
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+/*smartphone*/
+@media (max-width:480px) {
+    body {
+        font-weight: 10px;
+        text-align: center;
+    }
+
+    h1 .backprincipal {
+        margin-top: 4px;
+        background-color: $back ;
+        margin-left: 3px;
+        font-size: 25px;
+    }
+}
+
+main {
+
+
+    head {
+        font-weight: 25px;
+        text-align: center;
+    }
+    .carousel-inner{
+        display: flex;
+        align-items: center;
+    }
+    .carousel-item {
+        align-items: center;
+        width: 90%;
+        height: 90%;
+    }
+
+    .maquillajesback {
+        margin: 10px;
+        font-size: 30px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+
+    }
+
+    .maquillajesc {
+        padding-left: 6px;
+        margin: 4px;
+        width: 250px;
+        height: 300px;
+        border: solid 3px beige;
+        text-align: center;
+        border-radius: 50px;
+
+
+    }
+
+
+   
+    
+}

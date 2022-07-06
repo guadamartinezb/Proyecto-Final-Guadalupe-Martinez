@@ -1,0 +1,61 @@
+body{
+    header{
+        .titulocp {
+            display: flex;
+            text-align: center;
+            font-size:55px;
+            margin-top: 8px;
+            font-weight: bold; 
+            color: $letrasprincipales;
+            justify-content: center;
+        }
+    }
+   
+}
+main {
+   
+    .nav-link {
+        color: rgb(122, 122, 216);
+        font-weight: bold;
+        font-size: x-large;
+        text-align: justify;
+        text-decoration: none;
+        margin: 7px 12px 17px 6px;
+        padding: 10px 12px 10px 65px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .bg-light {
+        --bs-bg-opacity: none;
+    }
+
+    a.navbar-brand {
+        color: rgb(122, 122, 216);
+    }
+
+    .justify-content-end {
+        justify-content: left;
+    }
+
+    .container-fluid {
+        article.productoscp {
+            box-sizing: content-box;
+        }
+
+        .productoscp {
+            @extend .maquillajesc;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+            border-radius: 50px;
+            ;
+        }
+        .productos1 {
+            @extend  .productos
+        }
+    }
+}
