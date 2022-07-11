@@ -9907,6 +9907,9 @@ main .container-fluid .productoscp, main .container-sm .productoscp, main .conta
   height: 370px;
   width: 250px;
 }
+main .tituloformulario .formulario {
+  color: #4198B2;
+}
 main i.fa-circle-user:before .fa-map-location {
   display: flex;
   font-weight: bold;
@@ -10148,6 +10151,10 @@ main #grid .fa-brands {
   padding-top: 20px;
   width: 50px;
   vertical-align: none;
+  color: #4198B2;
+}
+main #grid .news {
+  margin-top: 10px;
   color: #4198B2;
 }
 
