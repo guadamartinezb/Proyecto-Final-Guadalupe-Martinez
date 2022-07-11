@@ -1,5 +1,7 @@
 main {
-
+    .tituloformulario .formulario{
+        color: $letrasprincipales;
+    }
     i.fa-circle-user:before .fa-map-location {
         display: flex;
         font-weight: bold;

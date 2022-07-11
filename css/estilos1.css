@@ -9811,7 +9811,7 @@ textarea.form-control-lg {
   }
 }
 #mainma .nav-link {
-  color: rgb(122, 122, 216);
+  color: #4198B2;
   font-weight: bold;
   font-size: x-large;
   text-align: justify;
@@ -9822,7 +9822,7 @@ textarea.form-control-lg {
   justify-content: space-around;
 }
 #mainma .divv .maquillajesc, #mainma .divv .main div .principal, .main div #mainma .divv .principal, #mainma .divv main .container-fluid .productoscp, main .container-fluid #mainma .divv .productoscp, #mainma .divv main .container-sm .productoscp, main .container-sm #mainma .divv .productoscp, #mainma .divv main .container-md .productoscp, main .container-md #mainma .divv .productoscp, #mainma .divv main .container-lg .productoscp, main .container-lg #mainma .divv .productoscp, #mainma .divv main .container-xl .productoscp, main .container-xl #mainma .divv .productoscp, #mainma .divv main .container-xxl .productoscp, main .container-xxl #mainma .divv .productoscp {
-  color: rgb(122, 122, 216);
+  color: #4198B2;
   font-family: Verdana, Tahoma, sans-serif;
   padding-left: 8px;
   margin: 4px;
@@ -9836,7 +9836,7 @@ textarea.form-control-lg {
 }
 #mainma .divv .productos, #mainma .divv .main div .productos1, .main div #mainma .divv .productos1, #mainma .divv main .container-fluid .productos1, main .container-fluid #mainma .divv .productos1, #mainma .divv main .container-sm .productos1, main .container-sm #mainma .divv .productos1, #mainma .divv main .container-md .productos1, main .container-md #mainma .divv .productos1, #mainma .divv main .container-lg .productos1, main .container-lg #mainma .divv .productos1, #mainma .divv main .container-xl .productos1, main .container-xl #mainma .divv .productos1, #mainma .divv main .container-xxl .productos1, main .container-xxl #mainma .divv .productos1 {
   font-size: 25px;
-  color: rgb(122, 122, 216);
+  color: #4198B2;
 }
 #mainma .marcasdestacadasm {
   color: white;
@@ -9867,7 +9867,7 @@ body header .titulocp, body header .tituloperfumeria, body header .maquillajesba
   font-size: 55px;
   margin-top: 8px;
   font-weight: bold;
-  color: rgb(122, 122, 216);
+  color: #4198B2;
   justify-content: center;
 }
 
@@ -9910,15 +9910,15 @@ main .container-fluid .productoscp, main .container-sm .productoscp, main .conta
 main i.fa-circle-user:before .fa-map-location {
   display: flex;
   font-weight: bold;
-  color: rgb(122, 122, 216);
+  color: #4198B2;
   align-items: end;
 }
 
 .header .backprincipal {
-  color: rgb(122, 122, 216);
+  color: #4198B2;
   font-weight: bold;
   text-align: center;
-  background-color: beige;
+  background-color: #f5f5dc;
   margin: 0px;
   font-size: 100px;
   font-size: 70px;
@@ -9976,10 +9976,10 @@ main i.fa-circle-user:before .fa-map-location {
   }
 }
 .header .maquillajesback {
-  color: rgb(122, 122, 216);
+  color: #4198B2;
   font-weight: bold;
   text-align: center;
-  background-color: beige;
+  background-color: #f5f5dc;
   margin: 20px;
   font-size: 50px;
   background-image: url("../imagenes/maquillajesback.jpg");
@@ -10003,13 +10003,13 @@ main i.fa-circle-user:before .fa-map-location {
   }
 }
 .header .salud {
-  color: rgb(122, 122, 216);
+  color: #4198B2;
   font-weight: bold;
   padding-left: 10px;
   margin: 20px;
   font-size: 50px;
   text-align: center;
-  background-color: beige;
+  background-color: #f5f5dc;
   background-color: linear-gradient(to top, rgb(161, 161, 243), rgb(200, 200, 255));
   animation-duration: 4s;
   animation-name: titulo;
@@ -10088,45 +10088,31 @@ button {
 }
 
 body {
-  background-color: beige;
+  background-color: #f5f5dc;
 }
 
 body header h1, body header .h1 {
   font-size: 15px;
   margin-top: 8px;
-  background-color: beige;
+  background-color: #f5f5dc;
   padding-left: 7px;
 }
-body header h2, body header .h2 {
-  font-size: 15px;
-  margin-top: 8px;
-  background-color: beige;
-  padding-right: 7px;
-  display: flex;
-  text-align: right;
-  justify-content: end;
-}
 
-main #grid .logo {
-  max-width: 100%;
-  background-image: url("/Farmacia/imagenes/titulofarmacia.png");
-  background-repeat: no-repeat;
-  background-size: 100px;
-  background-color: white;
-  margin-top: 30px;
-  margin-bottom: 40px;
+main #grid img .g-col-3 {
+  border-radius: 10%;
 }
 main #grid .nav .nav-link .nav-item {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  color: rgb(122, 122, 216);
+  color: #4198B2;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: x-large;
   font-weight: bold;
   text-decoration: none;
   flex-wrap: nowrap;
+  background-color: white;
 }
 main #grid div .input-group {
   align-items: center;
@@ -10162,7 +10148,7 @@ main #grid .fa-brands {
   padding-top: 20px;
   width: 50px;
   vertical-align: none;
-  color: rgb(122, 122, 216);
+  color: #4198B2;
 }
 
 /*desktop*/
@@ -10172,9 +10158,9 @@ main #grid .fa-brands {
     display: flex;
     font-weight: bold;
     margin-top: 4px;
-    color: rgb(122, 122, 216);
+    color: #4198B2;
     text-align: center;
-    background-color: beige;
+    background-color: #f5f5dc;
     margin-left: 6px;
     font-size: 55px;
   }
@@ -10200,7 +10186,7 @@ main #grid .fa-brands {
   }
   h1 .backprincipal, .h1 .backprincipal {
     margin-top: 4px;
-    background-color: beige;
+    background-color: #f5f5dc;
     margin-left: 3px;
     font-size: 25px;
   }
