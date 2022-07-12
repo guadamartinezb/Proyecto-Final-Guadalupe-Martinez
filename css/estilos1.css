@@ -9834,7 +9834,7 @@ textarea.form-control-lg {
   height: 370px;
   width: 250px;
 }
-#mainma .divv .productos, #mainma .divv .main div .productos1, .main div #mainma .divv .productos1, #mainma .divv main .container-fluid .productos1, main .container-fluid #mainma .divv .productos1, #mainma .divv main .container-sm .productos1, main .container-sm #mainma .divv .productos1, #mainma .divv main .container-md .productos1, main .container-md #mainma .divv .productos1, #mainma .divv main .container-lg .productos1, main .container-lg #mainma .divv .productos1, #mainma .divv main .container-xl .productos1, main .container-xl #mainma .divv .productos1, #mainma .divv main .container-xxl .productos1, main .container-xxl #mainma .divv .productos1 {
+#mainma .divv .productos, #mainma .divv .main div .productos1, .main div #mainma .divv .productos1, #mainma .divv main .container-fluid h2.productos1, main .container-fluid #mainma .divv h2.productos1, #mainma .divv main .container-sm h2.productos1, main .container-sm #mainma .divv h2.productos1, #mainma .divv main .container-md h2.productos1, main .container-md #mainma .divv h2.productos1, #mainma .divv main .container-lg h2.productos1, main .container-lg #mainma .divv h2.productos1, #mainma .divv main .container-xl h2.productos1, main .container-xl #mainma .divv h2.productos1, #mainma .divv main .container-xxl h2.productos1, main .container-xxl #mainma .divv h2.productos1, #mainma .divv main .container-fluid .productos1.h2, main .container-fluid #mainma .divv .productos1.h2, #mainma .divv main .container-sm .productos1.h2, main .container-sm #mainma .divv .productos1.h2, #mainma .divv main .container-md .productos1.h2, main .container-md #mainma .divv .productos1.h2, #mainma .divv main .container-lg .productos1.h2, main .container-lg #mainma .divv .productos1.h2, #mainma .divv main .container-xl .productos1.h2, main .container-xl #mainma .divv .productos1.h2, #mainma .divv main .container-xxl .productos1.h2, main .container-xxl #mainma .divv .productos1.h2 {
   font-size: 25px;
   color: #4198B2;
 }
@@ -9903,6 +9903,10 @@ main .container-fluid .productoscp, main .container-sm .productoscp, main .conta
   justify-content: space-around;
   border-radius: 50px;
 }
+main .container-fluid h2.productos1, main .container-sm h2.productos1, main .container-md h2.productos1, main .container-lg h2.productos1, main .container-xl h2.productos1, main .container-xxl h2.productos1, main .container-fluid .productos1.h2, main .container-sm .productos1.h2, main .container-md .productos1.h2, main .container-lg .productos1.h2, main .container-xl .productos1.h2, main .container-xxl .productos1.h2 {
+  color: #4198B2;
+}
+
 .main div .principal {
   height: 370px;
   width: 250px;

@@ -54,8 +54,10 @@ main {
             border-radius: 50px;
             ;
         }
-        .productos1 {
-            @extend  .productos
+        h2.productos1 {
+            @extend .productos ;
+            color: map-get($map: $colores, $key:letrasprincipales)
+
         }
     }
 }
