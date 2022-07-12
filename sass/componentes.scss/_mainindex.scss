@@ -3,7 +3,7 @@ body {
         h1 {
             font-size: 15px;
             margin-top: 8px;
-            background-color: $back;
+            background-color: map-get($map: $colores, $key: back );
             padding-left: 7px;
         }
 
@@ -21,13 +21,13 @@ main {
             flex-direction: row;
             align-items: center;
             justify-content: space-around;
-            color: $letrasprincipales;
+            color: map-get($map: $colores, $key: letrasprincipales);
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             font-size: x-large;
             font-weight: bold;
             text-decoration: none;
             flex-wrap: nowrap;
-            background-color: white;
+            background-color:map-get($map: $colores, $key:blanco);
         }
 
         div .input-group {
@@ -72,12 +72,12 @@ main {
             padding-top: 20px;
             width: 50px;
             vertical-align: none;
-            color: $letrasprincipales;
+            color: map-get($map: $colores, $key: letrasprincipales);
         }
 
         .news{
             margin-top: 10px;
-            color: $letrasprincipales;
+            color:map-get($map: $colores, $key: letrasprincipales);
             
         }
     }

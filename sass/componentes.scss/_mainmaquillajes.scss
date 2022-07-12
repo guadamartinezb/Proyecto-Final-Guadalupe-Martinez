@@ -9,7 +9,7 @@ body {
 #mainma {
     
     .nav-link {
-        color: $letrasprincipales;
+        color: map-get($map: $colores, $key: letrasprincipales);
         font-weight: bold;
         font-size: x-large;
         text-align: justify;
@@ -23,7 +23,7 @@ body {
 
     .divv {
         .maquillajesc {
-            color: $letrasprincipales;
+            color:map-get($map: $colores, $key: letrasprincipales);
             font-family: Verdana, Tahoma, sans-serif;
             padding-left: 8px;
             margin: 4px;
@@ -42,13 +42,13 @@ body {
         }
         .productos{
             font-size: 25px;
-            color: $letrasprincipales; 
+            color:map-get($map: $colores, $key: letrasprincipales); 
         }
 
     }
 
     .marcasdestacadasm {
-        color: $blanco;
+        color: map-get($map: $colores, $key:blanco);
         text-align: center;
         font-size: 30px;
         background-color: rgb(122, 122, 216);

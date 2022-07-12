@@ -1,12 +1,18 @@
 
-$letrasprincipales:  #4198B2; 
-$footer: black;
-$bordes: rgb(250, 206, 214);
+
 $gradientenav: linear-gradient(to top, rgb(255, 217, 223), beige);
-$back: #f5f5dc;
-$blanco: white; 
-$fondomarcas: rgb(147, 147, 240);
 $gradientefondo:linear-gradient(to top, rgb(161, 161, 243), rgb(200, 200, 255));
+
+$colores: ( 
+letrasprincipales:  #4198B2,
+footer: black,
+bordes: rgb(250, 206, 214),
+back: #f5f5dc,
+blanco: white, 
+fondomarcas: rgb(147, 147, 240),
+ );
+
+
 @mixin card ($width, $height) {
     height: $height;
     width: $width;

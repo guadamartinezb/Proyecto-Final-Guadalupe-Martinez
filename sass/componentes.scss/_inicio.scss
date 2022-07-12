@@ -1,11 +1,11 @@
 main {
     .tituloformulario .formulario{
-        color: $letrasprincipales;
+        color: map-get($map: $colores, $key: letrasprincipales);
     }
     i.fa-circle-user:before .fa-map-location {
         display: flex;
         font-weight: bold;
-        color:$letrasprincipales;
+        color:map-get($map: $colores, $key: letrasprincipales);
         align-items: end;
         
     }
