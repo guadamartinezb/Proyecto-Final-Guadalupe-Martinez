@@ -9977,11 +9977,16 @@ body header h1, body header .h1 {
   align-items: center;
   padding-left: 40px;
 }
+#grid #carouselExampleFade {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 50px;
+}
 #grid .w-100 {
   width: 80% !important;
   align-items: center;
   justify-content: center;
-  padding-left: 50px;
 }
 #grid .news {
   font-size: 40px;
@@ -9996,9 +10001,10 @@ body header h1, body header .h1 {
   display: flex;
   font-weight: 400px;
   align-items: center;
+  align-items: center;
   justify-content: space-evenly;
   font-size: xx-large;
-  padding-left: 10px;
+  padding-left: 60px;
   padding-top: 20px;
   width: 50px;
   vertical-align: none;
