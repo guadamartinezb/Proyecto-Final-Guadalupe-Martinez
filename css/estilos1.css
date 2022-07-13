@@ -9821,31 +9821,35 @@ textarea.form-control-lg {
   flex-wrap: wrap;
   justify-content: space-around;
 }
-#mainma .divv .maquillajesc, #mainma .divv .main div .principal, .main div #mainma .divv .principal, #mainma .divv main .container-fluid .productoscp, main .container-fluid #mainma .divv .productoscp, #mainma .divv main .container-sm .productoscp, main .container-sm #mainma .divv .productoscp, #mainma .divv main .container-md .productoscp, main .container-md #mainma .divv .productoscp, #mainma .divv main .container-lg .productoscp, main .container-lg #mainma .divv .productoscp, #mainma .divv main .container-xl .productoscp, main .container-xl #mainma .divv .productoscp, #mainma .divv main .container-xxl .productoscp, main .container-xxl #mainma .divv .productoscp {
+#mainma .productosm {
   color: #4198B2;
   font-family: Verdana, Tahoma, sans-serif;
   padding-left: 8px;
   margin: 4px;
-  display: inline-table;
+  display: flex;
   text-align: center;
+  flex-direction: row;
   justify-content: space-between;
+  box-sizing: content-box;
 }
-#mainma .divv .maquillajesc, #mainma .divv .main div .principal, .main div #mainma .divv .principal, #mainma .divv main .container-fluid .productoscp, main .container-fluid #mainma .divv .productoscp, #mainma .divv main .container-sm .productoscp, main .container-sm #mainma .divv .productoscp, #mainma .divv main .container-md .productoscp, main .container-md #mainma .divv .productoscp, #mainma .divv main .container-lg .productoscp, main .container-lg #mainma .divv .productoscp, #mainma .divv main .container-xl .productoscp, main .container-xl #mainma .divv .productoscp, #mainma .divv main .container-xxl .productoscp, main .container-xxl #mainma .divv .productoscp {
+#mainma .productosm {
   height: 370px;
   width: 250px;
 }
-#mainma .divv .productos, #mainma .divv .main div .productos1, .main div #mainma .divv .productos1, #mainma .divv main .container-fluid h2.productos1, main .container-fluid #mainma .divv h2.productos1, #mainma .divv main .container-sm h2.productos1, main .container-sm #mainma .divv h2.productos1, #mainma .divv main .container-md h2.productos1, main .container-md #mainma .divv h2.productos1, #mainma .divv main .container-lg h2.productos1, main .container-lg #mainma .divv h2.productos1, #mainma .divv main .container-xl h2.productos1, main .container-xl #mainma .divv h2.productos1, #mainma .divv main .container-xxl h2.productos1, main .container-xxl #mainma .divv h2.productos1, #mainma .divv main .container-fluid .productos1.h2, main .container-fluid #mainma .divv .productos1.h2, #mainma .divv main .container-sm .productos1.h2, main .container-sm #mainma .divv .productos1.h2, #mainma .divv main .container-md .productos1.h2, main .container-md #mainma .divv .productos1.h2, #mainma .divv main .container-lg .productos1.h2, main .container-lg #mainma .divv .productos1.h2, #mainma .divv main .container-xl .productos1.h2, main .container-xl #mainma .divv .productos1.h2, #mainma .divv main .container-xxl .productos1.h2, main .container-xxl #mainma .divv .productos1.h2 {
+#mainma .productos1 {
   font-size: 25px;
   color: #4198B2;
 }
-#mainma .marcasdestacadasm {
+
+.marcasdestacadasm {
   color: white;
   text-align: center;
   font-size: 30px;
-  background-color: rgb(122, 122, 216);
+  background-color: #4198B2;
   grid-area: sub;
 }
-#mainma .divmarcas {
+
+.divmarcas {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -9853,7 +9857,7 @@ textarea.form-control-lg {
   grid-area: marcas;
   padding-bottom: 40px;
 }
-#mainma .divmarcas .marcas {
+.divmarcas .marcas {
   padding-top: 3px;
   display: flex;
   flex-direction: row;
@@ -9861,6 +9865,7 @@ textarea.form-control-lg {
   width: 180px;
   height: 180px;
 }
+
 body header .titulocp, body header .tituloperfumeria, body header .maquillajesback {
   display: flex;
   text-align: center;
@@ -9903,13 +9908,14 @@ main .container-fluid .productoscp, main .container-sm .productoscp, main .conta
   justify-content: space-around;
   border-radius: 50px;
 }
-main .container-fluid h2.productos1, main .container-sm h2.productos1, main .container-md h2.productos1, main .container-lg h2.productos1, main .container-xl h2.productos1, main .container-xxl h2.productos1, main .container-fluid .productos1.h2, main .container-sm .productos1.h2, main .container-md .productos1.h2, main .container-lg .productos1.h2, main .container-xl .productos1.h2, main .container-xxl .productos1.h2 {
+main .container-fluid h2.productos1, main .container-fluid .main div h2.productos1, .main div main .container-fluid h2.productos1, main .container-fluid h2.productos1, main .container-fluid .main div h2.productos1, .main div main .container-fluid h2.productos1, main .container-fluid .container-sm h2.productos1, main .container-fluid .container-sm .main div h2.productos1, .main div main .container-fluid .container-sm h2.productos1, main .container-sm .container-fluid h2.productos1, main .container-sm .container-fluid .main div h2.productos1, .main div main .container-sm .container-fluid h2.productos1, main .container-fluid .container-md h2.productos1, main .container-fluid .container-md .main div h2.productos1, .main div main .container-fluid .container-md h2.productos1, main .container-md .container-fluid h2.productos1, main .container-md .container-fluid .main div h2.productos1, .main div main .container-md .container-fluid h2.productos1, main .container-fluid .container-lg h2.productos1, main .container-fluid .container-lg .main div h2.productos1, .main div main .container-fluid .container-lg h2.productos1, main .container-lg .container-fluid h2.productos1, main .container-lg .container-fluid .main div h2.productos1, .main div main .container-lg .container-fluid h2.productos1, main .container-fluid .container-xl h2.productos1, main .container-fluid .container-xl .main div h2.productos1, .main div main .container-fluid .container-xl h2.productos1, main .container-xl .container-fluid h2.productos1, main .container-xl .container-fluid .main div h2.productos1, .main div main .container-xl .container-fluid h2.productos1, main .container-fluid .container-xxl h2.productos1, main .container-fluid .container-xxl .main div h2.productos1, .main div main .container-fluid .container-xxl h2.productos1, main .container-xxl .container-fluid h2.productos1, main .container-xxl .container-fluid .main div h2.productos1, .main div main .container-xxl .container-fluid h2.productos1, main .container-sm h2.productos1, main .container-sm .main div h2.productos1, .main div main .container-sm h2.productos1, main .container-sm .container-fluid h2.productos1, main .container-sm .container-fluid .main div h2.productos1, .main div main .container-sm .container-fluid h2.productos1, main .container-fluid .container-sm h2.productos1, main .container-fluid .container-sm .main div h2.productos1, .main div main .container-fluid .container-sm h2.productos1, main .container-sm h2.productos1, main .container-sm .main div h2.productos1, .main div main .container-sm h2.productos1, main .container-sm .container-md h2.productos1, main .container-sm .container-md .main div h2.productos1, .main div main .container-sm .container-md h2.productos1, main .container-md .container-sm h2.productos1, main .container-md .container-sm .main div h2.productos1, .main div main .container-md .container-sm h2.productos1, main .container-sm .container-lg h2.productos1, main .container-sm .container-lg .main div h2.productos1, .main div main .container-sm .container-lg h2.productos1, main .container-lg .container-sm h2.productos1, main .container-lg .container-sm .main div h2.productos1, .main div main .container-lg .container-sm h2.productos1, main .container-sm .container-xl h2.productos1, main .container-sm .container-xl .main div h2.productos1, .main div main .container-sm .container-xl h2.productos1, main .container-xl .container-sm h2.productos1, main .container-xl .container-sm .main div h2.productos1, .main div main .container-xl .container-sm h2.productos1, main .container-sm .container-xxl h2.productos1, main .container-sm .container-xxl .main div h2.productos1, .main div main .container-sm .container-xxl h2.productos1, main .container-xxl .container-sm h2.productos1, main .container-xxl .container-sm .main div h2.productos1, .main div main .container-xxl .container-sm h2.productos1, main .container-md h2.productos1, main .container-md .main div h2.productos1, .main div main .container-md h2.productos1, main .container-md .container-fluid h2.productos1, main .container-md .container-fluid .main div h2.productos1, .main div main .container-md .container-fluid h2.productos1, main .container-fluid .container-md h2.productos1, main .container-fluid .container-md .main div h2.productos1, .main div main .container-fluid .container-md h2.productos1, main .container-md .container-sm h2.productos1, main .container-md .container-sm .main div h2.productos1, .main div main .container-md .container-sm h2.productos1, main .container-sm .container-md h2.productos1, main .container-sm .container-md .main div h2.productos1, .main div main .container-sm .container-md h2.productos1, main .container-md h2.productos1, main .container-md .main div h2.productos1, .main div main .container-md h2.productos1, main .container-md .container-lg h2.productos1, main .container-md .container-lg .main div h2.productos1, .main div main .container-md .container-lg h2.productos1, main .container-lg .container-md h2.productos1, main .container-lg .container-md .main div h2.productos1, .main div main .container-lg .container-md h2.productos1, main .container-md .container-xl h2.productos1, main .container-md .container-xl .main div h2.productos1, .main div main .container-md .container-xl h2.productos1, main .container-xl .container-md h2.productos1, main .container-xl .container-md .main div h2.productos1, .main div main .container-xl .container-md h2.productos1, main .container-md .container-xxl h2.productos1, main .container-md .container-xxl .main div h2.productos1, .main div main .container-md .container-xxl h2.productos1, main .container-xxl .container-md h2.productos1, main .container-xxl .container-md .main div h2.productos1, .main div main .container-xxl .container-md h2.productos1, main .container-lg h2.productos1, main .container-lg .main div h2.productos1, .main div main .container-lg h2.productos1, main .container-lg .container-fluid h2.productos1, main .container-lg .container-fluid .main div h2.productos1, .main div main .container-lg .container-fluid h2.productos1, main .container-fluid .container-lg h2.productos1, main .container-fluid .container-lg .main div h2.productos1, .main div main .container-fluid .container-lg h2.productos1, main .container-lg .container-sm h2.productos1, main .container-lg .container-sm .main div h2.productos1, .main div main .container-lg .container-sm h2.productos1, main .container-sm .container-lg h2.productos1, main .container-sm .container-lg .main div h2.productos1, .main div main .container-sm .container-lg h2.productos1, main .container-lg .container-md h2.productos1, main .container-lg .container-md .main div h2.productos1, .main div main .container-lg .container-md h2.productos1, main .container-md .container-lg h2.productos1, main .container-md .container-lg .main div h2.productos1, .main div main .container-md .container-lg h2.productos1, main .container-lg h2.productos1, main .container-lg .main div h2.productos1, .main div main .container-lg h2.productos1, main .container-lg .container-xl h2.productos1, main .container-lg .container-xl .main div h2.productos1, .main div main .container-lg .container-xl h2.productos1, main .container-xl .container-lg h2.productos1, main .container-xl .container-lg .main div h2.productos1, .main div main .container-xl .container-lg h2.productos1, main .container-lg .container-xxl h2.productos1, main .container-lg .container-xxl .main div h2.productos1, .main div main .container-lg .container-xxl h2.productos1, main .container-xxl .container-lg h2.productos1, main .container-xxl .container-lg .main div h2.productos1, .main div main .container-xxl .container-lg h2.productos1, main .container-xl h2.productos1, main .container-xl .main div h2.productos1, .main div main .container-xl h2.productos1, main .container-xl .container-fluid h2.productos1, main .container-xl .container-fluid .main div h2.productos1, .main div main .container-xl .container-fluid h2.productos1, main .container-fluid .container-xl h2.productos1, main .container-fluid .container-xl .main div h2.productos1, .main div main .container-fluid .container-xl h2.productos1, main .container-xl .container-sm h2.productos1, main .container-xl .container-sm .main div h2.productos1, .main div main .container-xl .container-sm h2.productos1, main .container-sm .container-xl h2.productos1, main .container-sm .container-xl .main div h2.productos1, .main div main .container-sm .container-xl h2.productos1, main .container-xl .container-md h2.productos1, main .container-xl .container-md .main div h2.productos1, .main div main .container-xl .container-md h2.productos1, main .container-md .container-xl h2.productos1, main .container-md .container-xl .main div h2.productos1, .main div main .container-md .container-xl h2.productos1, main .container-xl .container-lg h2.productos1, main .container-xl .container-lg .main div h2.productos1, .main div main .container-xl .container-lg h2.productos1, main .container-lg .container-xl h2.productos1, main .container-lg .container-xl .main div h2.productos1, .main div main .container-lg .container-xl h2.productos1, main .container-xl h2.productos1, main .container-xl .main div h2.productos1, .main div main .container-xl h2.productos1, main .container-xl .container-xxl h2.productos1, main .container-xl .container-xxl .main div h2.productos1, .main div main .container-xl .container-xxl h2.productos1, main .container-xxl .container-xl h2.productos1, main .container-xxl .container-xl .main div h2.productos1, .main div main .container-xxl .container-xl h2.productos1, main .container-xxl h2.productos1, main .container-xxl .main div h2.productos1, .main div main .container-xxl h2.productos1, main .container-xxl .container-fluid h2.productos1, main .container-xxl .container-fluid .main div h2.productos1, .main div main .container-xxl .container-fluid h2.productos1, main .container-fluid .container-xxl h2.productos1, main .container-fluid .container-xxl .main div h2.productos1, .main div main .container-fluid .container-xxl h2.productos1, main .container-xxl .container-sm h2.productos1, main .container-xxl .container-sm .main div h2.productos1, .main div main .container-xxl .container-sm h2.productos1, main .container-sm .container-xxl h2.productos1, main .container-sm .container-xxl .main div h2.productos1, .main div main .container-sm .container-xxl h2.productos1, main .container-xxl .container-md h2.productos1, main .container-xxl .container-md .main div h2.productos1, .main div main .container-xxl .container-md h2.productos1, main .container-md .container-xxl h2.productos1, main .container-md .container-xxl .main div h2.productos1, .main div main .container-md .container-xxl h2.productos1, main .container-xxl .container-lg h2.productos1, main .container-xxl .container-lg .main div h2.productos1, .main div main .container-xxl .container-lg h2.productos1, main .container-lg .container-xxl h2.productos1, main .container-lg .container-xxl .main div h2.productos1, .main div main .container-lg .container-xxl h2.productos1, main .container-xxl .container-xl h2.productos1, main .container-xxl .container-xl .main div h2.productos1, .main div main .container-xxl .container-xl h2.productos1, main .container-xl .container-xxl h2.productos1, main .container-xl .container-xxl .main div h2.productos1, .main div main .container-xl .container-xxl h2.productos1, main .container-xxl h2.productos1, main .container-xxl .main div h2.productos1, .main div main .container-xxl h2.productos1, main .container-fluid .productos1.h2, main .container-fluid .main div .h2.productos1, .main div main .container-fluid .h2.productos1, main .container-fluid .h2.productos1, main .container-fluid .main div .h2.productos1, .main div main .container-fluid .h2.productos1, main .container-fluid .container-sm .h2.productos1, main .container-fluid .container-sm .main div .h2.productos1, .main div main .container-fluid .container-sm .h2.productos1, main .container-sm .container-fluid .h2.productos1, main .container-sm .container-fluid .main div .h2.productos1, .main div main .container-sm .container-fluid .h2.productos1, main .container-fluid .container-md .h2.productos1, main .container-fluid .container-md .main div .h2.productos1, .main div main .container-fluid .container-md .h2.productos1, main .container-md .container-fluid .h2.productos1, main .container-md .container-fluid .main div .h2.productos1, .main div main .container-md .container-fluid .h2.productos1, main .container-fluid .container-lg .h2.productos1, main .container-fluid .container-lg .main div .h2.productos1, .main div main .container-fluid .container-lg .h2.productos1, main .container-lg .container-fluid .h2.productos1, main .container-lg .container-fluid .main div .h2.productos1, .main div main .container-lg .container-fluid .h2.productos1, main .container-fluid .container-xl .h2.productos1, main .container-fluid .container-xl .main div .h2.productos1, .main div main .container-fluid .container-xl .h2.productos1, main .container-xl .container-fluid .h2.productos1, main .container-xl .container-fluid .main div .h2.productos1, .main div main .container-xl .container-fluid .h2.productos1, main .container-fluid .container-xxl .h2.productos1, main .container-fluid .container-xxl .main div .h2.productos1, .main div main .container-fluid .container-xxl .h2.productos1, main .container-xxl .container-fluid .h2.productos1, main .container-xxl .container-fluid .main div .h2.productos1, .main div main .container-xxl .container-fluid .h2.productos1, main .container-sm .productos1.h2, main .container-sm .main div .h2.productos1, .main div main .container-sm .h2.productos1, main .container-sm .container-fluid .h2.productos1, main .container-sm .container-fluid .main div .h2.productos1, .main div main .container-sm .container-fluid .h2.productos1, main .container-fluid .container-sm .h2.productos1, main .container-fluid .container-sm .main div .h2.productos1, .main div main .container-fluid .container-sm .h2.productos1, main .container-sm .h2.productos1, main .container-sm .main div .h2.productos1, .main div main .container-sm .h2.productos1, main .container-sm .container-md .h2.productos1, main .container-sm .container-md .main div .h2.productos1, .main div main .container-sm .container-md .h2.productos1, main .container-md .container-sm .h2.productos1, main .container-md .container-sm .main div .h2.productos1, .main div main .container-md .container-sm .h2.productos1, main .container-sm .container-lg .h2.productos1, main .container-sm .container-lg .main div .h2.productos1, .main div main .container-sm .container-lg .h2.productos1, main .container-lg .container-sm .h2.productos1, main .container-lg .container-sm .main div .h2.productos1, .main div main .container-lg .container-sm .h2.productos1, main .container-sm .container-xl .h2.productos1, main .container-sm .container-xl .main div .h2.productos1, .main div main .container-sm .container-xl .h2.productos1, main .container-xl .container-sm .h2.productos1, main .container-xl .container-sm .main div .h2.productos1, .main div main .container-xl .container-sm .h2.productos1, main .container-sm .container-xxl .h2.productos1, main .container-sm .container-xxl .main div .h2.productos1, .main div main .container-sm .container-xxl .h2.productos1, main .container-xxl .container-sm .h2.productos1, main .container-xxl .container-sm .main div .h2.productos1, .main div main .container-xxl .container-sm .h2.productos1, main .container-md .productos1.h2, main .container-md .main div .h2.productos1, .main div main .container-md .h2.productos1, main .container-md .container-fluid .h2.productos1, main .container-md .container-fluid .main div .h2.productos1, .main div main .container-md .container-fluid .h2.productos1, main .container-fluid .container-md .h2.productos1, main .container-fluid .container-md .main div .h2.productos1, .main div main .container-fluid .container-md .h2.productos1, main .container-md .container-sm .h2.productos1, main .container-md .container-sm .main div .h2.productos1, .main div main .container-md .container-sm .h2.productos1, main .container-sm .container-md .h2.productos1, main .container-sm .container-md .main div .h2.productos1, .main div main .container-sm .container-md .h2.productos1, main .container-md .h2.productos1, main .container-md .main div .h2.productos1, .main div main .container-md .h2.productos1, main .container-md .container-lg .h2.productos1, main .container-md .container-lg .main div .h2.productos1, .main div main .container-md .container-lg .h2.productos1, main .container-lg .container-md .h2.productos1, main .container-lg .container-md .main div .h2.productos1, .main div main .container-lg .container-md .h2.productos1, main .container-md .container-xl .h2.productos1, main .container-md .container-xl .main div .h2.productos1, .main div main .container-md .container-xl .h2.productos1, main .container-xl .container-md .h2.productos1, main .container-xl .container-md .main div .h2.productos1, .main div main .container-xl .container-md .h2.productos1, main .container-md .container-xxl .h2.productos1, main .container-md .container-xxl .main div .h2.productos1, .main div main .container-md .container-xxl .h2.productos1, main .container-xxl .container-md .h2.productos1, main .container-xxl .container-md .main div .h2.productos1, .main div main .container-xxl .container-md .h2.productos1, main .container-lg .productos1.h2, main .container-lg .main div .h2.productos1, .main div main .container-lg .h2.productos1, main .container-lg .container-fluid .h2.productos1, main .container-lg .container-fluid .main div .h2.productos1, .main div main .container-lg .container-fluid .h2.productos1, main .container-fluid .container-lg .h2.productos1, main .container-fluid .container-lg .main div .h2.productos1, .main div main .container-fluid .container-lg .h2.productos1, main .container-lg .container-sm .h2.productos1, main .container-lg .container-sm .main div .h2.productos1, .main div main .container-lg .container-sm .h2.productos1, main .container-sm .container-lg .h2.productos1, main .container-sm .container-lg .main div .h2.productos1, .main div main .container-sm .container-lg .h2.productos1, main .container-lg .container-md .h2.productos1, main .container-lg .container-md .main div .h2.productos1, .main div main .container-lg .container-md .h2.productos1, main .container-md .container-lg .h2.productos1, main .container-md .container-lg .main div .h2.productos1, .main div main .container-md .container-lg .h2.productos1, main .container-lg .h2.productos1, main .container-lg .main div .h2.productos1, .main div main .container-lg .h2.productos1, main .container-lg .container-xl .h2.productos1, main .container-lg .container-xl .main div .h2.productos1, .main div main .container-lg .container-xl .h2.productos1, main .container-xl .container-lg .h2.productos1, main .container-xl .container-lg .main div .h2.productos1, .main div main .container-xl .container-lg .h2.productos1, main .container-lg .container-xxl .h2.productos1, main .container-lg .container-xxl .main div .h2.productos1, .main div main .container-lg .container-xxl .h2.productos1, main .container-xxl .container-lg .h2.productos1, main .container-xxl .container-lg .main div .h2.productos1, .main div main .container-xxl .container-lg .h2.productos1, main .container-xl .productos1.h2, main .container-xl .main div .h2.productos1, .main div main .container-xl .h2.productos1, main .container-xl .container-fluid .h2.productos1, main .container-xl .container-fluid .main div .h2.productos1, .main div main .container-xl .container-fluid .h2.productos1, main .container-fluid .container-xl .h2.productos1, main .container-fluid .container-xl .main div .h2.productos1, .main div main .container-fluid .container-xl .h2.productos1, main .container-xl .container-sm .h2.productos1, main .container-xl .container-sm .main div .h2.productos1, .main div main .container-xl .container-sm .h2.productos1, main .container-sm .container-xl .h2.productos1, main .container-sm .container-xl .main div .h2.productos1, .main div main .container-sm .container-xl .h2.productos1, main .container-xl .container-md .h2.productos1, main .container-xl .container-md .main div .h2.productos1, .main div main .container-xl .container-md .h2.productos1, main .container-md .container-xl .h2.productos1, main .container-md .container-xl .main div .h2.productos1, .main div main .container-md .container-xl .h2.productos1, main .container-xl .container-lg .h2.productos1, main .container-xl .container-lg .main div .h2.productos1, .main div main .container-xl .container-lg .h2.productos1, main .container-lg .container-xl .h2.productos1, main .container-lg .container-xl .main div .h2.productos1, .main div main .container-lg .container-xl .h2.productos1, main .container-xl .h2.productos1, main .container-xl .main div .h2.productos1, .main div main .container-xl .h2.productos1, main .container-xl .container-xxl .h2.productos1, main .container-xl .container-xxl .main div .h2.productos1, .main div main .container-xl .container-xxl .h2.productos1, main .container-xxl .container-xl .h2.productos1, main .container-xxl .container-xl .main div .h2.productos1, .main div main .container-xxl .container-xl .h2.productos1, main .container-xxl .productos1.h2, main .container-xxl .main div .h2.productos1, .main div main .container-xxl .h2.productos1, main .container-xxl .container-fluid .h2.productos1, main .container-xxl .container-fluid .main div .h2.productos1, .main div main .container-xxl .container-fluid .h2.productos1, main .container-fluid .container-xxl .h2.productos1, main .container-fluid .container-xxl .main div .h2.productos1, .main div main .container-fluid .container-xxl .h2.productos1, main .container-xxl .container-sm .h2.productos1, main .container-xxl .container-sm .main div .h2.productos1, .main div main .container-xxl .container-sm .h2.productos1, main .container-sm .container-xxl .h2.productos1, main .container-sm .container-xxl .main div .h2.productos1, .main div main .container-sm .container-xxl .h2.productos1, main .container-xxl .container-md .h2.productos1, main .container-xxl .container-md .main div .h2.productos1, .main div main .container-xxl .container-md .h2.productos1, main .container-md .container-xxl .h2.productos1, main .container-md .container-xxl .main div .h2.productos1, .main div main .container-md .container-xxl .h2.productos1, main .container-xxl .container-lg .h2.productos1, main .container-xxl .container-lg .main div .h2.productos1, .main div main .container-xxl .container-lg .h2.productos1, main .container-lg .container-xxl .h2.productos1, main .container-lg .container-xxl .main div .h2.productos1, .main div main .container-lg .container-xxl .h2.productos1, main .container-xxl .container-xl .h2.productos1, main .container-xxl .container-xl .main div .h2.productos1, .main div main .container-xxl .container-xl .h2.productos1, main .container-xl .container-xxl .h2.productos1, main .container-xl .container-xxl .main div .h2.productos1, .main div main .container-xl .container-xxl .h2.productos1, main .container-xxl .h2.productos1, main .container-xxl .main div .h2.productos1, .main div main .container-xxl .h2.productos1 {
   color: #4198B2;
 }
 
-.main div .principal {
+.main div .productoscp {
   height: 370px;
   width: 250px;
+  box-sizing: content-box;
 }
 main .tituloformulario .formulario {
   color: #4198B2;
@@ -9957,42 +9963,20 @@ footer {
   padding-top: 10px;
   padding-left: 10px;
   padding-bottom: 10px;
-  background-color: beige;
-  color: beige;
+  background-color: #f5f5dc;
+  color: #4198B2;
 }
-
-.c {
+footer .iconos i.fa-brands {
   display: flex;
-  font-size: medium;
-  align-items: end;
-}
-
-h4, .h4 {
-  color: rgb(122, 122, 216);
-  font-size: 45px;
-  text-align: center;
-}
-
-h5.newsl, .newsl.h5 {
-  color: rgb(122, 122, 216);
-  font-size: 25px;
-  text-align: center;
-}
-
-.col-12 {
+  font-weight: 400px;
   align-items: center;
-  text-align: center;
-}
-
-.btn {
-  align-items: center;
-  color: rgb(122, 122, 216);
-}
-
-button {
-  display: flex;
-  align-items: center;
-  color: rgb(122, 122, 216);
+  justify-content: space-evenly;
+  font-size: xx-large;
+  padding-left: 10px;
+  padding-top: 20px;
+  width: 50px;
+  vertical-align: none;
+  color: #4198B2;
 }
 
 body {
@@ -10006,10 +9990,10 @@ body header h1, body header .h1 {
   padding-left: 7px;
 }
 
-main #grid img .g-col-3 {
+#grid img .g-col-3 {
   border-radius: 10%;
 }
-main #grid .nav .nav-link .nav-item {
+#grid .nav .nav-link .nav-item {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -10022,31 +10006,26 @@ main #grid .nav .nav-link .nav-item {
   flex-wrap: nowrap;
   background-color: white;
 }
-main #grid div .input-group {
+#grid div .input-group {
   align-items: center;
   padding-left: 40px;
 }
-main #grid .offcanvas-title {
-  font-size: large;
-}
-main #grid .w-100 {
+#grid .w-100 {
   width: 80% !important;
   align-items: center;
   justify-content: center;
   padding-left: 50px;
 }
-main #grid .news {
+#grid .news {
   font-size: 40px;
+  margin-top: 10px;
+  color: #4198B2;
 }
-main #grid .newsl {
+#grid .newsl {
   font-size: 30px;
+  color: #4198B2;
 }
-main #grid .iconos {
-  display: flex;
-  align-items: center;
-  margin-top: 20px;
-}
-main #grid .fa-brands {
+#grid .iconos i.fa-brands {
   display: flex;
   font-weight: 400px;
   align-items: center;
@@ -10058,12 +10037,16 @@ main #grid .fa-brands {
   vertical-align: none;
   color: #4198B2;
 }
-main #grid .news {
-  margin-top: 10px;
-  color: #4198B2;
-}
 
 /*desktop*/
+@media (min-width: 1024px) {
+  main .navbar .navbar-light .bg-light .fixed-top {
+    display: none;
+  }
+  main .iconos .fa-brands {
+    justify-content: center;
+  }
+}
 /*tablet*/
 @media (min-width: 481px) and (max-width: 1023px) {
   h1 .backprincipal, .h1 .backprincipal {
@@ -10079,7 +10062,7 @@ main #grid .news {
   main .maquillajesback {
     margin: 15px;
   }
-  main .maquillajesc, main .container-fluid .productoscp, main .container-sm .productoscp, main .container-md .productoscp, main .container-lg .productoscp, main .container-xl .productoscp, main .container-xxl .productoscp, main .main div .principal, .main div main .principal {
+  main .maquillajesc, main .container-fluid .productoscp, main .container-sm .productoscp, main .container-md .productoscp, main .container-lg .productoscp, main .container-xl .productoscp, main .container-xxl .productoscp {
     align-items: center;
   }
   main .offcanvas-title {
@@ -10103,6 +10086,16 @@ main #grid .news {
     font-size: 25px;
   }
 }
+main img .g-col-3 {
+  display: none;
+}
+main ul .nav .justify-content-center {
+  display: none;
+}
+main .iconos .fa-brands {
+  justify-content: center;
+  width: 300px;
+}
 main head {
   font-weight: 25px;
   text-align: center;
@@ -10123,7 +10116,7 @@ main .maquillajesback {
   background-repeat: no-repeat;
   background-position: center center;
 }
-main .maquillajesc, main .container-fluid .productoscp, main .container-sm .productoscp, main .container-md .productoscp, main .container-lg .productoscp, main .container-xl .productoscp, main .container-xxl .productoscp, main .main div .principal, .main div main .principal {
+main .maquillajesc, main .container-fluid .productoscp, main .container-sm .productoscp, main .container-md .productoscp, main .container-lg .productoscp, main .container-xl .productoscp, main .container-xxl .productoscp {
   padding-left: 6px;
   margin: 4px;
   width: 250px;
@@ -10131,6 +10124,9 @@ main .maquillajesc, main .container-fluid .productoscp, main .container-sm .prod
   border: solid 3px beige;
   text-align: center;
   border-radius: 50px;
+}
+main .titulocp, main body header .maquillajesback, body header main .maquillajesback, main body header .tituloperfumeria, body header main .tituloperfumeria {
+  display: none;
 }
 
 /*# sourceMappingURL=estilos1.css.map */

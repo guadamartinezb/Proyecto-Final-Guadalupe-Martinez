@@ -22,7 +22,7 @@ body {
 
 
 
-    .maquillajesc {
+    .productosm {
         color: map-get($map: $colores, $key: letrasprincipales);
         font-family: Verdana, Tahoma, sans-serif;
         padding-left: 8px;
@@ -39,11 +39,11 @@ body {
         width: $width;
     }
 
-    .maquillajesc {
+    .productosm {
         @include card(250px, 370px);
     }
 
-    .productos {
+    .productos1 {
         font-size: 25px;
         color: map-get($map: $colores , $key: letrasprincipales);
     }

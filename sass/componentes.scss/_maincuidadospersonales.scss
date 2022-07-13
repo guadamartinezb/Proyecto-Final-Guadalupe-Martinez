@@ -55,7 +55,7 @@ main {
             ;
         }
         h2.productos1 {
-            @extend .productos ;
+            @extend .productos1;
             color: map-get($map: $colores, $key:letrasprincipales)
 
         }

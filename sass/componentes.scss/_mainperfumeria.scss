@@ -10,14 +10,14 @@ body {
 .main {
 
     div {
-        .principal {
-            @extend .maquillajesc;
+        .productoscp {
+            @extend .productoscp;
             @include card(250px, 370px);
             box-sizing: content-box;
 
         }
         .productos1 {
-            @extend  .productos
+            @extend  .productos1;
         }
     }
 }
