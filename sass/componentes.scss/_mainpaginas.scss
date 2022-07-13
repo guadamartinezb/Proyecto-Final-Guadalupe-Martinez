@@ -1,6 +1,6 @@
 body{
     header{
-        .titulocp {
+        .titulos{
             display: flex;
             text-align: center;
             font-size:55px;
@@ -60,4 +60,36 @@ main {
 
         }
     }
+}
+#mainma {
+
+    .marcasdestacadasm {
+        color: map-get($map: $colores, $key: blanco);
+        text-align: center;
+        font-size: 30px;
+        background-color: map-get($map: $colores, $key: letrasprincipales);
+        grid-area: sub;
+
+    }
+
+    .divmarcas {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        grid-area: marcas;
+        padding-bottom: 40px;
+
+        .marcas {
+            padding-top: 3px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 180px;
+            height: 180px;
+
+        }
+    }
+
+
 }
