@@ -2,44 +2,21 @@ footer {
     padding-top: 10px;
     padding-left: 10px;
     padding-bottom: 10px;
-    background-color: beige;
-    color: beige;
+    background-color: map-get($map: $colores, $key:back );
+    color: map-get($map: $colores, $key: letrasprincipales );
+    .iconos i.fa-brands {
+        display: flex;
+        font-weight: 400px;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: xx-large;
+        padding-left: 10px;
+        padding-top: 20px;
+        width: 50px;
+        vertical-align: none;
+        color: map-get($map: $colores, $key: letrasprincipales);
+    }
  
+    }
    
-    
-        
-        
-    
-    }
-    .c {
-        display: flex;
-        font-size: medium;
-        align-items: end;
-
-
-
-    }
-    h4 {  
-    color:rgb(122, 122, 216) ;
-    font-size: 45px;
-    text-align: center;
-    }
-    h5.newsl {
-     color:rgb(122, 122, 216) ;
-    font-size: 25px;
-    text-align: center;
-    }
-    .col-12{
-        align-items: center;
-        text-align: center;
-    }
-   .btn{
-    align-items: center;
-    color: rgb(122, 122, 216);
-    }
-    button {
-        display: flex;
-        align-items: center;
-        color:rgb(122, 122, 216); 
-    }
-
+   

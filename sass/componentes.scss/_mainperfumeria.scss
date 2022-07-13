@@ -13,6 +13,7 @@ body {
         .principal {
             @extend .maquillajesc;
             @include card(250px, 370px);
+            box-sizing: content-box;
 
         }
         .productos1 {

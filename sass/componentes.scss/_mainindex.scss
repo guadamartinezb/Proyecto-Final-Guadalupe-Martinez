@@ -3,82 +3,70 @@ body {
         h1 {
             font-size: 15px;
             margin-top: 8px;
-            background-color: map-get($map: $colores, $key: back );
+            background-color: map-get($map: $colores, $key: back);
             padding-left: 7px;
         }
 
     }
 }
 
-main {
-    #grid {
-        img .g-col-3 {
-            border-radius: 10%;
+
+#grid {
+    img .g-col-3 {
+        border-radius: 10%;
     }
 
-        .nav .nav-link .nav-item {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-around;
-            color: map-get($map: $colores, $key: letrasprincipales);
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            font-size: x-large;
-            font-weight: bold;
-            text-decoration: none;
-            flex-wrap: nowrap;
-            background-color:map-get($map: $colores, $key:blanco);
-        }
-
-        div .input-group {
-            align-items: center;
-            padding-left: 40px;
-        }
-
-        .offcanvas-title {
-            font-size: large;
-
-        }
-
-        .w-100 {
-            width: 80% !important;
-            align-items: center;
-            justify-content: center;
-            padding-left: 50px;
-
-        }
-
-        .news {
-            font-size: 40px;
-        }
-
-        .newsl {
-            font-size: 30px;
-        }
-
-        .iconos {
-            display: flex;
-            align-items: center;
-            margin-top: 20px;
-        }
-
-        .fa-brands {
-            display: flex;
-            font-weight: 400px;
-            align-items: center;
-            justify-content: space-evenly;
-            font-size: xx-large;
-            padding-left: 10px;
-            padding-top: 20px;
-            width: 50px;
-            vertical-align: none;
-            color: map-get($map: $colores, $key: letrasprincipales);
-        }
-
-        .news{
-            margin-top: 10px;
-            color:map-get($map: $colores, $key: letrasprincipales);
-            
-        }
+    .nav .nav-link .nav-item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        color: map-get($map: $colores, $key: letrasprincipales);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: x-large;
+        font-weight: bold;
+        text-decoration: none;
+        flex-wrap: nowrap;
+        background-color: map-get($map: $colores, $key: blanco);
     }
+
+    div .input-group {
+        align-items: center;
+        padding-left: 40px;
+    }
+
+    .w-100 {
+        width: 80% !important;
+        align-items: center;
+        justify-content: center;
+        padding-left: 50px;
+
+    }
+
+    .news {
+        font-size: 40px;
+        margin-top: 10px;
+        color: map-get($map: $colores, $key: letrasprincipales);
+
+    }
+
+    .newsl {
+        font-size: 30px;
+        color: map-get($map: $colores, $key: letrasprincipales );
+        
+    }
+
+    .iconos i.fa-brands {
+        display: flex;
+        font-weight: 400px;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: xx-large;
+        padding-left: 10px;
+        padding-top: 20px;
+        width: 50px;
+        vertical-align: none;
+        color: map-get($map: $colores, $key: letrasprincipales);
+    }
+
 }

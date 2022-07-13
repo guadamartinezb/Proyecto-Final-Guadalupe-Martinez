@@ -1,7 +1,14 @@
 /*desktop*/
 @media (min-width:1024px) {
     main {
-    
+        .navbar .navbar-light .bg-light .fixed-top{
+            display: none;
+        }
+        .iconos .fa-brands {
+            justify-content: center;
+        
+        }
+        
     }
 
 }
@@ -15,7 +22,7 @@
         margin-top: 4px;
         color: map-get($map: $colores, $key: letrasprincipales);
         text-align: center;
-        background-color: map-get($map: $colores, $key:back ) ;
+        background-color: map-get($map: $colores, $key: back);
         margin-left: 6px;
         font-size: 55px;
     }
@@ -26,7 +33,7 @@
         .maquillajesback {
             margin: 15px;
         }
-            
+
         .maquillajesc {
             align-items: center;
         }
@@ -34,7 +41,8 @@
         .offcanvas-title {
             display: flex;
         }
-        .carousel-inner{
+
+        .carousel-inner {
             display: flex;
             align-items: center;
         }
@@ -50,23 +58,35 @@
 
     h1 .backprincipal {
         margin-top: 4px;
-        background-color: map-get($map: $colores, $key: back ) ;
+        background-color: map-get($map: $colores, $key: back);
         margin-left: 3px;
         font-size: 25px;
     }
 }
 
 main {
+    img .g-col-3 {
+        display: none;
+    }
 
+    ul .nav .justify-content-center {
+        display: none;
+    }
+    .iconos .fa-brands { 
+        justify-content: center;
+        width:300px ;
+    }
 
     head {
         font-weight: 25px;
         text-align: center;
     }
-    .carousel-inner{
+
+    .carousel-inner {
         display: flex;
         align-items: center;
     }
+
     .carousel-item {
         align-items: center;
         width: 90%;
@@ -93,8 +113,10 @@ main {
 
 
     }
+    .titulocp {
+        display: none;
+    }
 
 
-   
-    
+
 }

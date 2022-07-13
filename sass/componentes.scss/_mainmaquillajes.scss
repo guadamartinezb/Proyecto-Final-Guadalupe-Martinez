@@ -1,13 +1,13 @@
 body {
-    header{
+    header {
         .maquillajesback {
             @extend .titulocp;
         }
-     }
+    }
 }
 
 #mainma {
-    
+
     .nav-link {
         color: map-get($map: $colores, $key: letrasprincipales);
         font-weight: bold;
@@ -21,60 +21,61 @@ body {
     }
 
 
-    .divv {
-        .maquillajesc {
-            color:map-get($map: $colores, $key: letrasprincipales);
-            font-family: Verdana, Tahoma, sans-serif;
-            padding-left: 8px;
-            margin: 4px;
-            display: inline-table;
-            text-align: center;
-            justify-content: space-between;
-        }
 
-        @mixin card ($width, $height) {
-            height: $height;
-            width: $width;
-        }
-
-        .maquillajesc {
-            @include card(250px, 370px);
-        }
-        .productos{
-            font-size: 25px;
-            color:map-get($map: $colores, $key: letrasprincipales); 
-        }
-
-    }
-
-    .marcasdestacadasm {
-        color: map-get($map: $colores, $key:blanco);
+    .maquillajesc {
+        color: map-get($map: $colores, $key: letrasprincipales);
+        font-family: Verdana, Tahoma, sans-serif;
+        padding-left: 8px;
+        margin: 4px;
+        display: flex;
         text-align: center;
-        font-size: 30px;
-        background-color: rgb(122, 122, 216);
-        grid-area: sub;
-
+        flex-direction: row;
+        justify-content: space-between;
+        box-sizing: content-box;
     }
 
-    .divmarcas {
+    @mixin card ($width, $height) {
+        height: $height;
+        width: $width;
+    }
+
+    .maquillajesc {
+        @include card(250px, 370px);
+    }
+
+    .productos {
+        font-size: 25px;
+        color: map-get($map: $colores , $key: letrasprincipales);
+    }
+
+}
+
+.marcasdestacadasm {
+    color: map-get($map: $colores, $key: blanco);
+    text-align: center;
+    font-size: 30px;
+    background-color: map-get($map: $colores, $key: letrasprincipales);
+    grid-area: sub;
+
+}
+
+.divmarcas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    grid-area: marcas;
+    padding-bottom: 40px;
+
+    .marcas {
+        padding-top: 3px;
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
         flex-wrap: wrap;
-        grid-area: marcas;
-        padding-bottom: 40px;
-
-        .marcas {
-            padding-top: 3px;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            width: 180px;
-            height: 180px;
-
-        }
-
-        &:hover {}
+        width: 180px;
+        height: 180px;
 
     }
+
+
 }
