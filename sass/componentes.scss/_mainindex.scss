@@ -52,12 +52,14 @@ body {
     .news {
         font-size: 40px;
         margin-top: 10px;
+        align-items: center;
         color: map-get($map: $colores, $key: letrasprincipales);
 
     }
 
     .newsl {
         font-size: 30px;
+        align-items: center;
         color: map-get($map: $colores, $key: letrasprincipales );
         
     }
