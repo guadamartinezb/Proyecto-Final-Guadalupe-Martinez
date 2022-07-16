@@ -15,12 +15,12 @@
 
 <body>
   <header>
-    <h1> <i class="fa-solid fa-phone"></i> Llámanos:43521137  </h1>  
-    
-   
+    <h1> <i class="fa-solid fa-phone"></i> Llámanos:43521137 </h1>
+
+
   </header>
   <main id="grid">
-    
+
     <ul class="nav justify-content-center">
       <img class="g-col-3" src="./imagenes/logofarmacia.png" alt="logo" width="230">
       <li class="nav-item">
@@ -32,9 +32,9 @@
       <li class="nav-item">
         <a class="nav-link" href="./paginas/perfumeria.html">Perfumeria</a>
       </li>
-      <li  class="nav-item">
+      <li class="nav-item">
         <a class="nav-link" href="./paginas/inicio_sesion.html"><i class="fa-solid fa-circle-user"> </i></a>
-         
+
       </li>
 
     </ul>
@@ -42,7 +42,7 @@
     <!--Navegador para smartphone-->
     <nav class="navbar navbar-light bg-light fixed-top">
       <div class="container-fluid">
-        <img class="g-col-2" src="./imagenes/logofarmacia.png"  alt="logo" width="230"> 
+        <img class="g-col-2" src="./imagenes/logofarmacia.png" alt="logo" width="230">
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
           aria-controls="offcanvasNavbar">
           <span class="navbar-toggler-icon"></span>
@@ -78,13 +78,16 @@
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="imagenes/perfumesback.jpg" class="d-block w-100" alt="Perfumes">
+          <a href="./paginas/perfumeria.html">
+          <img src="imagenes/perfumesback.jpg" class="d-block w-100" alt="Perfumes"> </a>
         </div>
         <div class="carousel-item">
-          <img src="./imagenes/maq.jpg" class="d-block w-100" alt="Maquillajes">
+          <a href="./paginas/maquillajes.html">
+          <img src="./imagenes/maq.jpg" class="d-block w-100" alt="Maquillajes"></a>
         </div>
         <div class="carousel-item">
-          <img src="./imagenes/redoxon.jpg" class="d-block w-100" alt="Antigripal">
+          <a href="./paginas/cuidadopersonal.html">
+          <img src="./imagenes/redoxon.jpg" class="d-block w-100" alt="Antigripal"></a>
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -99,21 +102,23 @@
     <!--Newsletter-->
     <h4 class="news">Newsletter</h4>
     <h5 class="newsl">Suscribite para recibir todas las novedades</h5>
-    <form class="row row-cols-lg-auto g-3 align-items-center">
-      <div class="col-6">
-        <label class="visually-hidden" for="inlineFormInputGroupUsername"></label>
-        <div class="input-group">
-          <div class="input-group-text">@</div>
-          <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
-          <div class="col-6">
-            <button type="submit" class="btn btn-primary">Suscibite</button>
+    <div class="formnews">
+      <form class="row row-cols-lg-auto g-3 align-items-center">
+        <div class="col-6">
+          <label class="visually-hidden" for="inlineFormInputGroupUsername"></label>
+          <div class="input-group">
+            <div class="input-group-text">@</div>
+            <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
+            <div class="col-6">
+              <button type="submit" class="btn btn-primary">Suscibite</button>
+            </div>
           </div>
+
         </div>
 
-      </div>
+      </form>
+    </div>
 
-    </form>
-   
   </main>
   <footer>
     <div class="iconos">

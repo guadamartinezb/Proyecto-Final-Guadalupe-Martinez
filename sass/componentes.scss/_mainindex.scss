@@ -34,7 +34,8 @@ body {
         align-items: center;
         padding-left: 40px;
     }
-    #carouselExampleFade  {
+
+    #carouselExampleFade {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -45,25 +46,36 @@ body {
         width: 90% !important;
         align-items: center;
         justify-content: center;
-    
+
 
     }
 
     .news {
         font-size: 40px;
         margin-top: 10px;
-        align-items: center;
+        text-align: center;
         color: map-get($map: $colores, $key: letrasprincipales);
 
     }
 
     .newsl {
         font-size: 30px;
-        align-items: center;
-        color: map-get($map: $colores, $key: letrasprincipales );
-        
-    }
+        text-align: center;
+        color: map-get($map: $colores, $key: letrasprincipales);
 
+    }
+     .row .col-6 {
+        align-items: center;
+        text-align: center;
+        color: map-get($map: $colores, $key: letrasprincipales);
+
+    }
+    .formnews {
+        align-items: center;
+        text-align: center;
+        color: map-get($map: $colores, $key: letrasprincipales);
+
+    } 
     .iconos i.fa-brands {
         display: flex;
         font-weight: 400px;

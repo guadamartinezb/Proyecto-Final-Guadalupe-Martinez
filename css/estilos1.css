@@ -9998,12 +9998,22 @@ body header h1, body header .h1 {
 #grid .news {
   font-size: 40px;
   margin-top: 10px;
-  align-items: center;
+  text-align: center;
   color: #4198B2;
 }
 #grid .newsl {
   font-size: 30px;
+  text-align: center;
+  color: #4198B2;
+}
+#grid .row .col-6 {
   align-items: center;
+  text-align: center;
+  color: #4198B2;
+}
+#grid .formnews {
+  align-items: center;
+  text-align: center;
   color: #4198B2;
 }
 #grid .iconos i.fa-brands {
