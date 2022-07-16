@@ -17,7 +17,13 @@ footer {
         vertical-align: none;
         color: map-get($map: $colores, $key: letrasprincipales);
     }
- 
+    .iconos{
+        display: flex;
+        justify-content: center;
+    }
+    .c {
+        text-align: end;
+    }
     }
    
    
