@@ -1,11 +1,18 @@
 main {
     .inicios {
+        align-items: center;
         color: map-get($map: $colores, $key: letrasprincipales);
        
     }
     .tituloformulario {
         display: flex;
+        text-align: center;
+    }
+    .formulario {
         align-items: center;
+        text-align: center;
+        justify-content: space-around;
+
     }
     i.fa-circle-user:before .fa-map-location {
         display: flex;

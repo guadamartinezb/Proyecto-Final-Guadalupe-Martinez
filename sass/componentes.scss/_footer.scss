@@ -1,7 +1,8 @@
 footer {
-    padding-top: 10px;
+    padding-top: 40px;
     padding-left: 10px;
     padding-bottom: 10px;
+    padding-bottom: 50px;
     background-color: map-get($map: $colores, $key:back );
     color: map-get($map: $colores, $key: letrasprincipales );
     .iconos i.fa-brands {

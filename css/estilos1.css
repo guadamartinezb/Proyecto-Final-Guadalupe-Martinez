@@ -9881,11 +9881,17 @@ main .container-fluid h2.productos1, main .container-fluid h2.productos1, main .
 }
 
 main .inicios {
+  align-items: center;
   color: #4198B2;
 }
 main .tituloformulario {
   display: flex;
+  text-align: center;
+}
+main .formulario {
   align-items: center;
+  text-align: center;
+  justify-content: space-around;
 }
 main i.fa-circle-user:before .fa-map-location {
   display: flex;
@@ -9927,9 +9933,10 @@ main i.fa-circle-user:before .fa-map-location {
 }
 
 footer {
-  padding-top: 10px;
+  padding-top: 40px;
   padding-left: 10px;
   padding-bottom: 10px;
+  padding-bottom: 50px;
   background-color: #f5f5dc;
   color: #4198B2;
 }
@@ -9981,10 +9988,10 @@ body header h1, body header .h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 50px;
+  padding-left: 70px;
 }
 #grid .w-100 {
-  width: 80% !important;
+  width: 90% !important;
   align-items: center;
   justify-content: center;
 }
