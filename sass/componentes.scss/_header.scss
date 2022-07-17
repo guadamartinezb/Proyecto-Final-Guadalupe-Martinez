@@ -1,12 +1,14 @@
-.header {
-    h1 .telefono {
-        color: map-get($map: $colores, $key: letrasprincipales);
+header {
+    .telefono{
         display: flex;
-        justify-content: left;
-        font-size: 14px;
-        margin-left: 8px;
-        margin-top: 10px;
+        color: map-get($map: $colores, $key: letrasprincipales );
+        text-align: left;
+        margin-top:5px;
+        margin-left: 10px;
+        font-size: 15px;
+        font-family: 'Courier New', Courier, monospace;
     }
+
 
     .logoinicio {
         border-radius: 10%;
@@ -23,13 +25,13 @@
     }
 
     .navdesk {
-        color: map-get($map: $colores, $key: letrasprincipales);
+        color: map-get($map:$colores , $key: letrasprincipales);
         font-weight: bold;
         font-size: x-large;
         text-align: justify;
         text-decoration: none;
         margin: 7px 12px 17px 6px;
-        padding: 10px 12px 10px 65px;
+        padding: 10px 12px 10px 20px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;

@@ -1,13 +1,12 @@
-
-
 #grid {
-    
-
-    div .input-group {
-        align-items: center;
-        padding-left: 40px;
+    .novedadesindex{
+        color: map-get($map: $colores, $key: blanco);
+        text-align: center;
+        font-size: 40px;
+        background-color: map-get($map: $colores, $key: letrasprincipales);
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
-
     .news {
         font-size: 40px;
         margin-top: 10px;
@@ -22,18 +21,20 @@
         color: map-get($map: $colores, $key: letrasprincipales);
 
     }
-     .row .col-6 {
+
+    .formularion {
         align-items: center;
         text-align: center;
         color: map-get($map: $colores, $key: letrasprincipales);
 
     }
+
     .formnews {
         display: flex;
         justify-content: center;
         color: map-get($map: $colores, $key: letrasprincipales);
 
-    } 
-  
+    }
+
 
 }

@@ -28,7 +28,7 @@ main {
     .marcasdestacadasm {
         color: map-get($map: $colores, $key: blanco);
         text-align: center;
-        font-size: 30px;
+        font-size: 40px;
         background-color: map-get($map: $colores, $key: letrasprincipales);
         grid-area: sub;
 

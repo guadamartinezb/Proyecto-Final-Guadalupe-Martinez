@@ -9831,7 +9831,7 @@ main .catalogo h2.productos1, main .catalogo .productos1.h2 {
 #mainma .marcasdestacadasm {
   color: white;
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   background-color: #4198B2;
   grid-area: sub;
 }
@@ -9872,18 +9872,19 @@ main i.fa-circle-user:before .fa-map-location {
   align-items: end;
 }
 
-.header h1 .telefono, .header .h1 .telefono {
-  color: #4198B2;
+header .telefono {
   display: flex;
-  justify-content: left;
-  font-size: 14px;
-  margin-left: 8px;
-  margin-top: 10px;
+  color: #4198B2;
+  text-align: left;
+  margin-top: 5px;
+  margin-left: 10px;
+  font-size: 15px;
+  font-family: "Courier New", Courier, monospace;
 }
-.header .logoinicio {
+header .logoinicio {
   border-radius: 10%;
 }
-.header h1.titulos, .header .titulos.h1 {
+header h1.titulos, header .titulos.h1 {
   display: flex;
   text-align: center;
   font-size: 55px;
@@ -9892,20 +9893,20 @@ main i.fa-circle-user:before .fa-map-location {
   color: #4198B2;
   justify-content: center;
 }
-.header .navdesk {
+header .navdesk {
   color: #4198B2;
   font-weight: bold;
   font-size: x-large;
   text-align: justify;
   text-decoration: none;
   margin: 7px 12px 17px 6px;
-  padding: 10px 12px 10px 65px;
+  padding: 10px 12px 10px 20px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
 }
-.header .menusmartp {
+header .menusmartp {
   display: none;
 }
 
@@ -9941,9 +9942,13 @@ body {
   background-color: #f5f5dc;
 }
 
-#grid div .input-group {
-  align-items: center;
-  padding-left: 40px;
+#grid .novedadesindex {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  background-color: #4198B2;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 #grid .news {
   font-size: 40px;
@@ -9956,7 +9961,7 @@ body {
   text-align: center;
   color: #4198B2;
 }
-#grid .row .col-6 {
+#grid .formularion {
   align-items: center;
   text-align: center;
   color: #4198B2;
