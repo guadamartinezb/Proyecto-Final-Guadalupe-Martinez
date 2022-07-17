@@ -9810,25 +9810,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-main .nav-link {
-  color: #4198B2;
-  font-weight: bold;
-  font-size: x-large;
-  text-align: justify;
-  text-decoration: none;
-  margin: 7px 12px 17px 6px;
-  padding: 10px 12px 10px 65px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-main a.navbar-brand {
-  color: #4198B2;
-}
-main .justify-content-end {
-  justify-content: left;
-}
 main .catalogo article.productoscp {
   box-sizing: content-box;
 }
@@ -9891,19 +9872,18 @@ main i.fa-circle-user:before .fa-map-location {
   align-items: end;
 }
 
-.header .telefono {
-  font-size: 10px;
-  margin-top: 8px;
-  color: #f5f5dc;
-  padding-left: 7px;
+.header h1 .telefono, .header .h1 .telefono {
+  color: #4198B2;
+  display: flex;
+  justify-content: left;
+  font-size: 14px;
+  margin-left: 8px;
+  margin-top: 10px;
 }
-.header .menusmartp {
-  display: none;
-}
-.header img .g-col-3 {
+.header .logoinicio {
   border-radius: 10%;
 }
-.header .titulos {
+.header h1.titulos, .header .titulos.h1 {
   display: flex;
   text-align: center;
   font-size: 55px;
@@ -9912,18 +9892,21 @@ main i.fa-circle-user:before .fa-map-location {
   color: #4198B2;
   justify-content: center;
 }
-.header .naveg {
+.header .navdesk {
+  color: #4198B2;
+  font-weight: bold;
+  font-size: x-large;
+  text-align: justify;
+  text-decoration: none;
+  margin: 7px 12px 17px 6px;
+  padding: 10px 12px 10px 65px;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: space-around;
-  color: #4198B2;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: x-large;
-  font-weight: bold;
-  text-decoration: none;
-  flex-wrap: nowrap;
-  background-color: white;
+}
+.header .menusmartp {
+  display: none;
 }
 
 footer {
@@ -9986,15 +9969,15 @@ body {
 
 /*desktop*/
 @media (min-width: 1024px) {
-  main .men {
+  header .menusmartp {
     display: none;
-  }
-  main .iconos .fa-brands {
-    justify-content: center;
   }
 }
 /*tablet*/
 @media (min-width: 481px) and (max-width: 1023px) {
+  header .menusmartp {
+    display: none;
+  }
   main .offcanvas-title {
     display: flex;
   }
@@ -10006,9 +9989,9 @@ body {
 /*smartphone*/
 @media (max-width: 480px) {
   header .menusmartp {
-    display: block;
+    display: flex;
   }
-  header img .g-col-3 {
+  header .logoinicio {
     display: none;
   }
   header .navdesk {

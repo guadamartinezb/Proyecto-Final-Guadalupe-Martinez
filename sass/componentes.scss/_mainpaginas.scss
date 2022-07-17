@@ -1,28 +1,4 @@
 main {
-   
-    .nav-link {
-        color: map-get($map: $colores, $key: letrasprincipales);
-        font-weight: bold;
-        font-size: x-large;
-        text-align: justify;
-        text-decoration: none;
-        margin: 7px 12px 17px 6px;
-        padding: 10px 12px 10px 65px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-
-
-    a.navbar-brand {
-        color:map-get($map: $colores, $key: letrasprincipales);
-    }
-
-    .justify-content-end {
-        justify-content: left;
-    }
-
     .catalogo {
         article.productoscp {
             box-sizing: content-box;

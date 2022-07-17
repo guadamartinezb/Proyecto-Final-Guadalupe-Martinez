@@ -1,26 +1,23 @@
 /*desktop*/
 @media (min-width:1024px) {
-    main {
-        .men {
+    header {
+        .menusmartp {
             display: none;
         }
-
-        .iconos .fa-brands {
-            justify-content: center;
-
-        }
-
     }
+
+    main {}
 
 }
 
-
 /*tablet*/
 @media(min-width:481px) and (max-width:1023px) {
-    header{
-        
+    header {
+        .menusmartp {
+            display: none;
+        }
     }
-    
+
     main {
         .offcanvas-title {
             display: flex;
@@ -36,21 +33,24 @@
 /*smartphone*/
 @media (max-width:480px) {
     header {
-    
+
         .menusmartp {
-            display: block;
+            display: flex;
         }
 
-        img .g-col-3 {
+        .logoinicio {
             display: none;
         }
+
         .navdesk {
             display: none;
         }
-        ul .naveg{
+
+        ul .naveg {
             display: none;
         }
     }
+
     main {
         .carousel-inner {
             display: flex;
