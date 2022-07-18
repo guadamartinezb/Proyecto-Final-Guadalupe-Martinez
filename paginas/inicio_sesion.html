@@ -18,24 +18,24 @@
         <h1 class="telefono"> <i class="telefono fa-solid fa-phone"></i> Llámanos:43521137 </h1>
         <!--Navegador para desktop-->
         <ul class="navdesk nav justify-content-center">
-            <img class="g-col-3" src="../imagenes/logofarmacia.png" alt="logo" width="250"> </h1>
-            <li class="navdesk nav-item">
-                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+            <img class="logoinicio" src="../imagenes/logofarmacia.png" alt="logo">
+            <li class="nav-item">
+                <a class="navdesk nav-link active" aria-current="page" href="../index.html">Inicio</a>
             </li>
-            <li class="navdesk nav-item">
-                <a class="nav-link" href="./maquillajes.html">Maquillajes</a>
+            <li class="nav-item">
+                <a class="navdesk nav-link" href="./maquillajes.html">Maquillajes</a>
             </li>
-            <li class="navdesk nav-item">
-                <a class="nav-link" href="./cuidadopersonal.html">Cuidado Personal</a>
+            <li class="nav-item">
+                <a class="navdesk nav-link" href="./cuidadopersonal.html">Cuidado Personal</a>
             </li>
-            <li class="navdesk nav-item">
-                <a class="nav-link" href="./perfumeria.html">Perfumeria</a>
+            <li class="nav-item">
+                <a class="navdesk nav-link" href="./perfumeria.html">Perfumeria</a>
             </li>
         </ul>
         <!--Navegador para smartphone-->
         <nav class="menusmartp navbar navbar-light bg-light fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Farmacia G&A </a>
+                <a class="navbar-brand" href="#"> <img class="logoinicio" src="../imagenes/logofarmacia.png" alt="logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                     <span class="navbar-toggler-icon"></span>
@@ -43,7 +43,7 @@
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                     aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Farmacia G&A</h5>
+                        <h2 class="offcanvas-title" id="offcanvasNavbarLabel">Farmacia G&A</h2>
                         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
                             aria-label="Close"></button>
                     </div>
@@ -66,30 +66,31 @@
             </div>
         </nav>
     </header>
-    <main id="grid">
-        <main id="grid">
+    <main>
+        <main>
             <div class="inicios">
                 <!--formulario -->
-                <h4 class="tiutloformulario"> Registrate para recibir todas nuestras novedades</h4>
+                <h3 class="tituloformulario"> Registrate para recibir todas nuestras novedades</h3>
                 <div class="formulario">
                     <form class="row g-3 mx-1 needs-validation" novalidate>
-                        <div class="col-md-5 position-relative">
-                            <label for="validationTooltip01" class="form-label">Nombre</label>
-                            <input type="text" class="form-control" id="validationTooltip01" value="Nombre" required>
+
+                        <div class="formularios col-md-4 align-items-center">
+                            <label for="validationTooltip02" class="formularios form-label">Nombre y Apellido</label>
+                            <input type="text" class="form-control" id="validationTooltip02" value="Nombre-Apellido" required>
                             <div class="valid-tooltip">
                                 Looks good!
                             </div>
                         </div>
-                        <div class="col-md-5 position-relative">
-                            <label for="validationTooltip02" class="form-label"> Apellido</label>
-                            <input type="text" class="form-control" id="validationTooltip02" value="Apellido" required>
+                        <div class="formularios col-md-4 align-items-center">
+                            <label for="validationTooltip02" class="formularios form-label">Documento</label>
+                            <input type="text" class="form-control" id="validationTooltip02" value="Documento" required>
                             <div class="valid-tooltip">
                                 Looks good!
                             </div>
                         </div>
 
-                        <div class="col-md-6">
-                            <label for="validationTooltipUsername" class="form-label">Mail</label>
+                        <div class="formularios col-md-4 align-items-center">
+                            <label for="validationTooltipUsername" class="formularios form-label">Mail</label>
                             <div class="input-group has-validation">
                                 <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
                                 <input type="text" class="form-control" id="validationTooltipUsername"
@@ -98,22 +99,30 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="formularios col-md-4 align-items-center">
                             <div>
-                                <label for="inputPassword" class=" col-form-label">Contraseña</label>
+                                <label for="inputPassword" class="formularios col-form-label">Contraseña</label>
                                 <div>
                                     <input type="password" class="form-control" id="inputPassword">
                                 </div>
                             </div>
                         </div>
-
-                        <div class="col-md-5 position-relative">
-                            <label for="validationTooltip03" class="form-label"> Comentario</label>
-                            <input type="text" class="form-control" id="validationTooltip03" required>
-                        </div>
-
-                        <div class="col-12">
-                            <button class="btn btn-primary" type="submit">Enviar</button>
+                        <fieldset class="formulario md-3">
+                            <div class="formularios form-check">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1"
+                                    value="option1" checked>
+                                <label class="formularios2 form-check-label" for="gridRadios1">
+                                    Suscribirse al boletin
+                                </label>
+                            </div>
+                            <div class="form-check md-4">
+                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2"
+                                    value="option2">
+                                <label class="formularios2 form-check-label" for="gridRadios2"> No suscribir </label>
+                            </div>
+                        </fieldset>
+                        <div class="col-12 align-items-center">
+                            <button class="btn btn-primary" type="submit">Registrarse</button>
                         </div>
                 </div>
             </div>

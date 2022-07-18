@@ -13,7 +13,7 @@ main {
             border-radius: 50px;
             
         }
-        h2.productos1 {
+        h3.productos1 {
             @extend .productos1;
             text-align: center;
             display: flex;
@@ -22,9 +22,6 @@ main {
 
         }
     }
-}
-#mainma {
-
     .marcasdestacadasm {
         color: map-get($map: $colores, $key: blanco);
         text-align: center;
@@ -52,6 +49,4 @@ main {
 
         }
     }
-
-
 }

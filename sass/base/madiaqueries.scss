@@ -14,6 +14,13 @@
 @media(min-width:481px) and (max-width:1023px) {
     header {
         .menusmartp {
+            display: flex;
+        }
+        .logoinicio {
+            display: none;
+        }
+
+        .navdesk {
             display: none;
         }
     }

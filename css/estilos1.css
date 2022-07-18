@@ -9821,21 +9821,20 @@ main .catalogo .productoscp {
   justify-content: space-around;
   border-radius: 50px;
 }
-main .catalogo h2.productos1, main .catalogo .productos1.h2 {
+main .catalogo h3.productos1, main .catalogo .productos1.h3 {
   text-align: center;
   display: flex;
   justify-content: center;
   color: #4198B2;
 }
-
-#mainma .marcasdestacadasm {
+main .marcasdestacadasm {
   color: white;
   text-align: center;
   font-size: 40px;
   background-color: #4198B2;
   grid-area: sub;
 }
-#mainma .divmarcas {
+main .divmarcas {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -9843,7 +9842,7 @@ main .catalogo h2.productos1, main .catalogo .productos1.h2 {
   grid-area: marcas;
   padding-bottom: 40px;
 }
-#mainma .divmarcas .marcas {
+main .divmarcas .marcas {
   padding-top: 3px;
   display: flex;
   flex-direction: row;
@@ -9857,13 +9856,22 @@ main .inicios {
   color: #4198B2;
 }
 main .tituloformulario {
-  display: flex;
+  color: #4198B2;
   text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 4px;
 }
 main .formulario {
   align-items: center;
   text-align: center;
   justify-content: space-around;
+}
+main .formularios {
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  font-weight: bold;
 }
 main i.fa-circle-user:before .fa-map-location {
   display: flex;
@@ -9881,6 +9889,9 @@ header .telefono {
   font-size: 15px;
   font-family: "Courier New", Courier, monospace;
 }
+header .logoprincipio {
+  width: 30%;
+}
 header .logoinicio {
   border-radius: 10%;
 }
@@ -9896,8 +9907,8 @@ header h1.titulos, header .titulos.h1 {
 header .navdesk {
   color: #4198B2;
   font-weight: bold;
-  font-size: x-large;
-  text-align: justify;
+  font-size: 30px;
+  text-align: center;
   text-decoration: none;
   margin: 7px 12px 17px 6px;
   padding: 10px 12px 10px 20px;
@@ -9981,6 +9992,12 @@ body {
 /*tablet*/
 @media (min-width: 481px) and (max-width: 1023px) {
   header .menusmartp {
+    display: flex;
+  }
+  header .logoinicio {
+    display: none;
+  }
+  header .navdesk {
     display: none;
   }
   main .offcanvas-title {

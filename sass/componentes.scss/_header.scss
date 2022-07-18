@@ -8,8 +8,9 @@ header {
         font-size: 15px;
         font-family: 'Courier New', Courier, monospace;
     }
-
-
+    .logoprincipio{
+        width: 30%;
+    }
     .logoinicio {
         border-radius: 10%;
 
@@ -27,8 +28,8 @@ header {
     .navdesk {
         color: map-get($map:$colores , $key: letrasprincipales);
         font-weight: bold;
-        font-size: x-large;
-        text-align: justify;
+        font-size: 30px;
+        text-align: center;
         text-decoration: none;
         margin: 7px 12px 17px 6px;
         padding: 10px 12px 10px 20px;

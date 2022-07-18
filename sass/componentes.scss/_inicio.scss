@@ -5,13 +5,23 @@ main {
        
     }
     .tituloformulario {
-        display: flex;
+        color: map-get($map: $colores, $key: letrasprincipales);
         text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        margin-left: 4px;
     }
     .formulario {
         align-items: center;
         text-align: center;
         justify-content: space-around;
+
+    }
+    .formularios {
+        align-items: center;
+        text-align: center;
+        justify-content: space-around;
+        font-weight: bold;
 
     }
     i.fa-circle-user:before .fa-map-location {
