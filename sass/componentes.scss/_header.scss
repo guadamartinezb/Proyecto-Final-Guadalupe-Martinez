@@ -48,4 +48,9 @@ header {
         background-color: map-get($map: $colores, $key:back );
         margin-left:10px ;
     }
+    .letrasnav{
+        text-align: center;
+        font-size:30px ;
+        
+    }
 }

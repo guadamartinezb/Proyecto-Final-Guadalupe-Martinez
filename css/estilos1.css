@@ -9935,6 +9935,10 @@ header .boton {
   background-color: #f5f5dc;
   margin-left: 10px;
 }
+header .letrasnav {
+  text-align: center;
+  font-size: 30px;
+}
 
 footer {
   padding-top: 40px;
