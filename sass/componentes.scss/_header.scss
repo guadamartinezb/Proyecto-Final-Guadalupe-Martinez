@@ -41,4 +41,11 @@ header {
     .menusmartp {
         display: none;
     }
+    .menusmart .martnav{
+        background-color: map-get($map: $colores, $key:back );
+    }
+    .boton{
+        background-color: map-get($map: $colores, $key:back );
+        margin-left:10px ;
+    }
 }

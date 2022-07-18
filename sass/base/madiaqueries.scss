@@ -53,24 +53,19 @@
             display: none;
         }
 
-        ul .naveg {
-            display: none;
-        }
+    
     }
 
     main {
-        .carousel-inner {
+        .presentacion {
+            display: flex;
+            align-items: center;
+           
+        }
+        .catalogo{
             display: flex;
             align-items: center;
         }
-
-        .carousel-item {
-            align-items: center;
-            width: 90%;
-            height: 90%;
-        }
-
-
     }
 
 }

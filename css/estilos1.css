@@ -9810,6 +9810,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  background-color: #f5f5dc;
+}
+
 main .catalogo article.productoscp {
   box-sizing: content-box;
 }
@@ -9849,6 +9853,10 @@ main .divmarcas .marcas {
   flex-wrap: wrap;
   width: 180px;
   height: 180px;
+}
+
+body {
+  background-color: #f5f5dc;
 }
 
 main .inicios {
@@ -9920,6 +9928,13 @@ header .navdesk {
 header .menusmartp {
   display: none;
 }
+header .menusmart .martnav {
+  background-color: #f5f5dc;
+}
+header .boton {
+  background-color: #f5f5dc;
+  margin-left: 10px;
+}
 
 footer {
   padding-top: 40px;
@@ -9947,6 +9962,10 @@ footer .iconos {
 }
 footer .c {
   text-align: end;
+}
+
+body {
+  background-color: #f5f5dc;
 }
 
 body {
@@ -9981,6 +10000,12 @@ body {
   display: flex;
   justify-content: center;
   color: #4198B2;
+}
+#grid .presentacion {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  margin-left: 80px;
 }
 
 /*desktop*/
@@ -10019,17 +10044,13 @@ body {
   header .navdesk {
     display: none;
   }
-  header ul .naveg {
-    display: none;
-  }
-  main .carousel-inner {
+  main .presentacion {
     display: flex;
     align-items: center;
   }
-  main .carousel-item {
+  main .catalogo {
+    display: flex;
     align-items: center;
-    width: 90%;
-    height: 90%;
   }
 }
 
