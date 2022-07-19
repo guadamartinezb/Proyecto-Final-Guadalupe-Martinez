@@ -49,14 +49,22 @@ header {
     }
     .menusmartp {
         display: none;
-        background-color: map-get($map: $colores, $key: back );
+        
     }
-   
-    
-    .boton{
-        background-color: map-get($map: $colores, $key:back );
-        margin-left:10px ;
+   .tituloylogosmart{
+    display: flex;
+    align-items: center;
+   }
+    .titulosmart{
+        display: flex;
+        text-align: center;
+        font-size:45;
+        margin-top: 8px;
+        font-weight: bold;
+        color: map-get($map: $colores, $key: letrasprincipales);
+        justify-content: center;
     }
+
     .letrasnav{
         text-align: center;
         font-size:30px ;

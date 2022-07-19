@@ -9947,11 +9947,19 @@ header .navdesk {
 }
 header .menusmartp {
   display: none;
-  background-color: #f5f5dc;
 }
-header .boton {
-  background-color: #f5f5dc;
-  margin-left: 10px;
+header .tituloylogosmart {
+  display: flex;
+  align-items: center;
+}
+header .titulosmart {
+  display: flex;
+  text-align: center;
+  font-size: 45;
+  margin-top: 8px;
+  font-weight: bold;
+  color: #4198B2;
+  justify-content: center;
 }
 header .letrasnav {
   text-align: center;
@@ -10039,6 +10047,12 @@ body {
   header .menusmartp {
     display: none;
   }
+  header .tituloylogosmart {
+    display: none;
+  }
+  header .titulosmart {
+    display: none;
+  }
   main .novedadesindex {
     font-size: 35px;
   }
@@ -10055,7 +10069,14 @@ body {
     display: none;
   }
   header .titulos {
-    font-size: 50px;
+    display: none;
+  }
+  header .tituloylogo {
+    display: none;
+  }
+  header .titulosmart {
+    font-size: 44px;
+    text-align: center;
   }
 }
 /*smartphone*/
@@ -10070,7 +10091,14 @@ body {
     display: none;
   }
   header .titulos {
-    font-size: 40px;
+    display: none;
+  }
+  header .tituloylogo {
+    display: none;
+  }
+  header .titulosmart {
+    font-size: 31px;
+    text-align: center;
   }
   main .presentacion {
     display: flex;

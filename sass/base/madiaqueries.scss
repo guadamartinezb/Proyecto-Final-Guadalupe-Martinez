@@ -4,6 +4,14 @@
         .menusmartp {
             display: none;
         }
+        .tituloylogosmart{
+            display: none;
+            
+           }
+            .titulosmart{
+                display: none;
+                
+            }
     }
 
     main {
@@ -29,7 +37,15 @@
         }
 
         .titulos {
-            font-size: 50px;
+            display: none;
+        }
+        .tituloylogo{
+            display: none;
+           
+        }
+        .titulosmart{
+            font-size: 44px;
+            text-align: center;
         }
 
     }
@@ -53,7 +69,15 @@
         }
 
         .titulos {
-            font-size: 40px;
+            display: none;
+        }
+        .tituloylogo{
+            display: none;
+           
+        }
+        .titulosmart{
+            font-size: 31px;
+            text-align: center;
         }
 
     }
