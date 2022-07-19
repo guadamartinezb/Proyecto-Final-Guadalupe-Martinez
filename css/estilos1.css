@@ -10015,13 +10015,11 @@ body {
   padding-right: 37%;
 }
 #grid .news {
-  font-size: 40px;
   margin-top: 10px;
   text-align: center;
   color: #4198B2;
 }
 #grid .newsl {
-  font-size: 30px;
   text-align: center;
   color: #4198B2;
 }
@@ -10056,6 +10054,12 @@ body {
   main .novedadesindex {
     font-size: 35px;
   }
+  main .news {
+    font-size: 40px;
+  }
+  main .newsl {
+    font-size: 30px;
+  }
 }
 /*tablet*/
 @media (min-width: 481px) and (max-width: 1023px) {
@@ -10077,6 +10081,12 @@ body {
   header .titulosmart {
     font-size: 44px;
     text-align: center;
+  }
+  main .news {
+    font-size: 34px;
+  }
+  main .newsl {
+    font-size: 26px;
   }
 }
 /*smartphone*/
