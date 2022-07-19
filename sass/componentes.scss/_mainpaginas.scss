@@ -1,28 +1,30 @@
-body{
-    background-color: map-get($map: $colores, $key: back );
-}
 main {
     .catalogo {
         article.productoscp {
             box-sizing: content-box;
+            margin-top: 2rem;
         }
 
         .productoscp {
             display: flex;
+            flex-direction: column;
             flex-wrap: wrap;
             align-items: center;
-            text-align: center;
             justify-content: space-around;
-            border-radius: 50px;
+            
             
         }
         h3.productos1 {
-            @extend .productos1;
             text-align: center;
+            font-size: x-large;
             display: flex;
             justify-content: center;
             color: map-get($map: $colores, $key:letrasprincipales)
 
+        }
+        .texttop{
+            width: 60%;
+            text-align: center;
         }
     }
     .marcasdestacadasm {

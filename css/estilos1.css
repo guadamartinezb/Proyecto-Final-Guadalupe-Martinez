@@ -9810,26 +9810,27 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-body {
-  background-color: #f5f5dc;
-}
-
 main .catalogo article.productoscp {
   box-sizing: content-box;
+  margin-top: 2rem;
 }
 main .catalogo .productoscp {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
-  text-align: center;
   justify-content: space-around;
-  border-radius: 50px;
 }
 main .catalogo h3.productos1, main .catalogo .productos1.h3 {
   text-align: center;
+  font-size: x-large;
   display: flex;
   justify-content: center;
   color: #4198B2;
+}
+main .catalogo .texttop {
+  width: 60%;
+  text-align: center;
 }
 main .marcasdestacadasm {
   color: white;
@@ -9855,11 +9856,9 @@ main .divmarcas .marcas {
   height: 180px;
 }
 
-body {
-  background-color: #f5f5dc;
-}
-
 main .inicios {
+  display: flex;
+  flex-direction: column;
   align-items: center;
   color: #4198B2;
 }
@@ -9869,17 +9868,26 @@ main .tituloformulario {
   font-size: 30px;
   font-weight: bold;
   margin-left: 4px;
+  margin-bottom: 10px;
 }
 main .formulario {
-  align-items: center;
   text-align: center;
-  justify-content: space-around;
+  margin-top: 10px;
 }
 main .formularios {
+  display: flex;
   align-items: center;
   text-align: center;
-  justify-content: space-around;
   font-weight: bold;
+  flex-direction: column;
+  justify-content: center;
+}
+main .formularios3 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  justify-content: center;
 }
 main i.fa-circle-user:before .fa-map-location {
   display: flex;
@@ -9887,21 +9895,35 @@ main i.fa-circle-user:before .fa-map-location {
   color: #4198B2;
   align-items: end;
 }
+main .regist {
+  background-color: #4198B2;
+}
 
+header .icotel {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #4198B2;
+}
 header .telefono {
   display: flex;
-  color: #4198B2;
-  text-align: left;
-  margin-top: 5px;
-  margin-left: 10px;
-  font-size: 15px;
+  flex-direction: row;
+  font-size: 20px;
+  margin-left: 4px;
   font-family: "Courier New", Courier, monospace;
+  color: #4198B2;
 }
 header .logoprincipio {
   width: 30%;
 }
 header .logoinicio {
   border-radius: 10%;
+}
+header .tituloylogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 header h1.titulos, header .titulos.h1 {
   display: flex;
@@ -9918,8 +9940,6 @@ header .navdesk {
   font-size: 30px;
   text-align: center;
   text-decoration: none;
-  margin: 7px 12px 17px 6px;
-  padding: 10px 12px 10px 20px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -9927,8 +9947,6 @@ header .navdesk {
 }
 header .menusmartp {
   display: none;
-}
-header .menusmart .martnav {
   background-color: #f5f5dc;
 }
 header .boton {
@@ -9942,9 +9960,8 @@ header .letrasnav {
 
 footer {
   padding-top: 40px;
-  padding-left: 10px;
-  padding-bottom: 10px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
+  padding-right: 20px;
   background-color: #f5f5dc;
   color: #4198B2;
 }
@@ -9965,6 +9982,7 @@ footer .iconos {
   justify-content: center;
 }
 footer .c {
+  margin-bottom: 18px;
   text-align: end;
 }
 
@@ -9972,17 +9990,21 @@ body {
   background-color: #f5f5dc;
 }
 
-body {
-  background-color: #f5f5dc;
+#grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
 #grid .novedadesindex {
+  display: flex;
+  align-items: center;
   color: white;
   text-align: center;
-  font-size: 40px;
   background-color: #4198B2;
-  margin-top: 20px;
+  margin-top: 0px;
   margin-bottom: 20px;
+  padding-left: 37%;
+  padding-right: 37%;
 }
 #grid .news {
   font-size: 40px;
@@ -10005,17 +10027,20 @@ body {
   justify-content: center;
   color: #4198B2;
 }
-#grid .presentacion {
-  width: 80%;
-  display: flex;
-  align-items: center;
-  margin-left: 80px;
+#grid .carousel {
+  width: 60%;
+}
+#grid .regist {
+  background-color: #4198B2;
 }
 
 /*desktop*/
 @media (min-width: 1024px) {
   header .menusmartp {
     display: none;
+  }
+  main .novedadesindex {
+    font-size: 35px;
   }
 }
 /*tablet*/
@@ -10029,12 +10054,8 @@ body {
   header .navdesk {
     display: none;
   }
-  main .offcanvas-title {
-    display: flex;
-  }
-  main .carousel-inner {
-    display: flex;
-    align-items: center;
+  header .titulos {
+    font-size: 50px;
   }
 }
 /*smartphone*/
@@ -10048,6 +10069,9 @@ body {
   header .navdesk {
     display: none;
   }
+  header .titulos {
+    font-size: 40px;
+  }
   main .presentacion {
     display: flex;
     align-items: center;
@@ -10055,6 +10079,15 @@ body {
   main .catalogo {
     display: flex;
     align-items: center;
+  }
+  main .news {
+    font-size: 28px;
+  }
+  main .newsl {
+    font-size: 18px;
+  }
+  main .carousel {
+    width: 65%;
   }
 }
 

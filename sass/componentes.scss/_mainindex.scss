@@ -1,14 +1,17 @@
-body{
-    background-color: map-get($map: $colores, $key: back );
-}
 #grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     .novedadesindex{
+        display: flex;
+        align-items: center;
         color: map-get($map: $colores, $key: blanco);
         text-align: center;
-        font-size: 40px;
         background-color: map-get($map: $colores, $key: letrasprincipales);
-        margin-top: 20px;
+        margin-top:  0px;
         margin-bottom: 20px;
+        padding-left: 37%;
+        padding-right: 37%;
     }
     .news {
         font-size: 40px;
@@ -38,11 +41,12 @@ body{
         color: map-get($map: $colores, $key: letrasprincipales);
 
     }
-    .presentacion {
-        width: 80%;
-        display: flex;
-        align-items: center;
-        margin-left: 80px;
+    .carousel{
+        width: 60%;
+    }
+   
+    .regist{
+        background-color: map-get($map: $colores, $key: letrasprincipales );
     }
 
 

@@ -5,21 +5,25 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="keywords" content="Farmacia,Salud,Perfumes, medicamentos, maquillaje">
+  <meta name="keywords" content="Farmacia, Salud, Perfumes, medicamentos, maquillaje">
   <meta name="description"
     content="Farmacia G&A es una farmacia Uruguaya dedicada al cuidado de la salud y el cuidado del bienestar">
   <title class="title"> Farmacia G&A </title>
   <link rel="shortcut icon" href="./imagenes/faviconfarmacia.ico" type="image/x-icon">
   <link rel="stylesheet" href="./css/estilos1.css">
 </head>
- 
+
 <body>
   <header>
-    <h1 class="telefono"> <i class="fa-solid fa-phone">Llamanos:43521137 </i>  </h1>
-   
+    <div class="icotel">
+      <i class="fa-solid fa-phone"></i>
+      <h1 class="telefono"> Llamanos:43521137 </h1>
+    </div>
+
+
     <!--Navegador para desktop-->
     <ul class="navdesk nav justify-content-center">
-      <img class="logoinicio g-col-3" src="./imagenes/logofarmacia.png" alt="logo" width="230">
+      <img class="logoinicio " src="./imagenes/logofarmacia.png" alt="logo" width="230">
       <li class="nav-item">
         <a class="navdesk nav-link active" aria-current="page" href="./paginas/maquillajes.html">Maquillajes</a>
       </li>
@@ -36,10 +40,10 @@
 
     </ul>
 
-    <!--Navegador para smartphone--> 
+    <!--Navegador para smartphone-->
     <nav class="menusmartp navbar navbar-light bg-light fixed-top">
       <div class="martnav container-fluid">
-        <img class="g-col-2" src="./imagenes/logofarmacia.png" alt="logo" width="230">
+        <img src="./imagenes/g&asmart.png" alt="logo" width="230">
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
           aria-controls="offcanvasNavbar">
           <span class="navbar-toggler-icon"></span>
@@ -55,7 +59,8 @@
                 <a class="letrasnav nav-link active" aria-current="page" href="./index.html">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="letrasnav nav-link active" aria-current="page" href="./paginas/inicio_sesion.html">Registrate</a>
+                <a class="letrasnav nav-link active" aria-current="page"
+                  href="./paginas/inicio_sesion.html">Registrate</a>
               </li>
               <li class="nav-item">
                 <a class="letrasnav nav-link" href="./paginas/perfumeria.html">Perfumeria</a>
@@ -75,8 +80,8 @@
   <main id="grid">
     <h3 class="novedadesindex">Productos Destacados</h3>
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-      <div class="presentacion carousel-inner">
-        <div class="presentacion carousel-item active">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
           <a href="./paginas/perfumeria.html">
             <img src="imagenes/victoriasecretc.jpg" class="d-block w-100" alt="Perfumes"> </a>
         </div>
@@ -98,6 +103,7 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+
     <!--Newsletter-->
     <h4 class="news">Newsletter</h4>
     <h5 class="newsl">Suscribite para recibir todas las novedades</h5>
@@ -109,7 +115,7 @@
             <div class="input-group-text">@</div>
             <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Username">
             <div class="col-6">
-              <button type="submit" class="btn btn-primary">Suscibite</button>
+              <button type="submit" class="regist btn btn-primary">Suscibite</button>
             </div>
           </div>
 
@@ -126,7 +132,7 @@
       <i class="fa-brands fa-instagram fa-2xl"></i>
       <i class="fa-brands fa-pinterest fa-2xl"></i>
     </div>
-    <p class="c">&copy; Copyright 2022 </p>
+    <p class="c">&copy;2022 </p>
     <p class="c">FARMACIA G&A</p>
 
 

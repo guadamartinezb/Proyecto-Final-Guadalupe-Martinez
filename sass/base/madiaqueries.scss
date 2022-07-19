@@ -6,8 +6,11 @@
         }
     }
 
-    main {}
-
+    main {
+        .novedadesindex{
+            font-size: 35px;
+        }
+    }
 }
 
 /*tablet*/
@@ -16,6 +19,7 @@
         .menusmartp {
             display: flex;
         }
+
         .logoinicio {
             display: none;
         }
@@ -23,18 +27,13 @@
         .navdesk {
             display: none;
         }
-    }
 
-    main {
-        .offcanvas-title {
-            display: flex;
+        .titulos {
+            font-size: 50px;
         }
 
-        .carousel-inner {
-            display: flex;
-            align-items: center;
-        }
     }
+
 }
 
 /*smartphone*/
@@ -53,18 +52,36 @@
             display: none;
         }
 
-    
+        .titulos {
+            font-size: 40px;
+        }
+
     }
 
     main {
-        .presentacion {
+       .presentacion {
             display: flex;
             align-items: center;
-           
+
         }
-        .catalogo{
+
+        .catalogo {
             display: flex;
             align-items: center;
+        }
+
+        .news {
+            font-size: 28px;
+
+        }
+
+        .newsl {
+            font-size: 18px;
+
+        }
+
+        .carousel {
+            width: 65%;
         }
     }
 

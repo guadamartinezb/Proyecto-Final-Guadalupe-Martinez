@@ -1,8 +1,7 @@
 footer {
     padding-top: 40px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
+    padding-right: 20px;
     background-color: map-get($map: $colores, $key:back );
     color: map-get($map: $colores, $key: letrasprincipales );
     .iconos i.fa-brands {
@@ -22,6 +21,7 @@ footer {
         justify-content: center;
     }
     .c {
+        margin-bottom: 18px;
         text-align: end;
     }
     }

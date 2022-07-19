@@ -1,12 +1,18 @@
 header {
+    .icotel {
+        display: flex;
+        flex-direction: row;
+        margin-left: 20px;
+        margin-top: 20px;
+        color: map-get($map: $colores, $key: letrasprincipales );
+    }
     .telefono{
         display: flex;
-        color: map-get($map: $colores, $key: letrasprincipales );
-        text-align: left;
-        margin-top:5px;
-        margin-left: 10px;
-        font-size: 15px;
+        flex-direction: row;
+        font-size: 20px;
+        margin-left: 4px;
         font-family: 'Courier New', Courier, monospace;
+        color: map-get($map: $colores, $key: letrasprincipales );
     }
     .logoprincipio{
         width: 30%;
@@ -14,6 +20,11 @@ header {
     .logoinicio {
         border-radius: 10%;
 
+    }
+    .tituloylogo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     h1.titulos {
         display: flex;
@@ -31,8 +42,6 @@ header {
         font-size: 30px;
         text-align: center;
         text-decoration: none;
-        margin: 7px 12px 17px 6px;
-        padding: 10px 12px 10px 20px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -40,10 +49,10 @@ header {
     }
     .menusmartp {
         display: none;
+        background-color: map-get($map: $colores, $key: back );
     }
-    .menusmart .martnav{
-        background-color: map-get($map: $colores, $key:back );
-    }
+   
+    
     .boton{
         background-color: map-get($map: $colores, $key:back );
         margin-left:10px ;
